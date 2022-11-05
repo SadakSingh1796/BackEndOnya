@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "x/J58N1wxNaG3q/AjlR3zA0X+z3b5JqggeytoEO6svicPG/tF78oKY2ilzBLlUqoDqqwIj6/U6uwMXiqXUBt8g==",
+  "success": true,
+  "projectFilePath": "C:\\AngularProjects\\Practice Code\\Onyo_v1.0 2\\OnyoModels\\OnyaModels.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\LENOVO STUPA\\.nuget\\packages\\dapper\\2.0.123\\dapper.2.0.123.nupkg.sha512",
+    "C:\\Users\\LENOVO STUPA\\.nuget\\packages\\system.reflection.emit.lightweight\\4.7.0\\system.reflection.emit.lightweight.4.7.0.nupkg.sha512"
+  ],
+  "logs": []
+}

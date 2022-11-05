@@ -1,0 +1,10 @@
+C:\AngularProjects\Practice Code\Onyo_v1.0 2\OnyoModels\bin\Release\netcoreapp3.1\OnyaModels.deps.json
+C:\AngularProjects\Practice Code\Onyo_v1.0 2\OnyoModels\bin\Release\netcoreapp3.1\OnyaModels.dll
+C:\AngularProjects\Practice Code\Onyo_v1.0 2\OnyoModels\bin\Release\netcoreapp3.1\OnyaModels.pdb
+C:\AngularProjects\Practice Code\Onyo_v1.0 2\OnyoModels\obj\Release\netcoreapp3.1\OnyaModels.csproj.AssemblyReference.cache
+C:\AngularProjects\Practice Code\Onyo_v1.0 2\OnyoModels\obj\Release\netcoreapp3.1\OnyaModels.GeneratedMSBuildEditorConfig.editorconfig
+C:\AngularProjects\Practice Code\Onyo_v1.0 2\OnyoModels\obj\Release\netcoreapp3.1\OnyaModels.AssemblyInfoInputs.cache
+C:\AngularProjects\Practice Code\Onyo_v1.0 2\OnyoModels\obj\Release\netcoreapp3.1\OnyaModels.AssemblyInfo.cs
+C:\AngularProjects\Practice Code\Onyo_v1.0 2\OnyoModels\obj\Release\netcoreapp3.1\OnyaModels.csproj.CoreCompileInputs.cache
+C:\AngularProjects\Practice Code\Onyo_v1.0 2\OnyoModels\obj\Release\netcoreapp3.1\OnyaModels.dll
+C:\AngularProjects\Practice Code\Onyo_v1.0 2\OnyoModels\obj\Release\netcoreapp3.1\OnyaModels.pdb

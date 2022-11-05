@@ -1,0 +1,9 @@
+C:\Users\hp\source\repos\Onyo_v1.0\OnyoModels\bin\Debug\netcoreapp3.1\OnyoModels.deps.json
+C:\Users\hp\source\repos\Onyo_v1.0\OnyoModels\bin\Debug\netcoreapp3.1\OnyoModels.dll
+C:\Users\hp\source\repos\Onyo_v1.0\OnyoModels\bin\Debug\netcoreapp3.1\OnyoModels.pdb
+C:\Users\hp\source\repos\Onyo_v1.0\OnyoModels\obj\Debug\netcoreapp3.1\OnyoModels.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\hp\source\repos\Onyo_v1.0\OnyoModels\obj\Debug\netcoreapp3.1\OnyoModels.AssemblyInfoInputs.cache
+C:\Users\hp\source\repos\Onyo_v1.0\OnyoModels\obj\Debug\netcoreapp3.1\OnyoModels.AssemblyInfo.cs
+C:\Users\hp\source\repos\Onyo_v1.0\OnyoModels\obj\Debug\netcoreapp3.1\OnyoModels.csproj.CoreCompileInputs.cache
+C:\Users\hp\source\repos\Onyo_v1.0\OnyoModels\obj\Debug\netcoreapp3.1\OnyoModels.dll
+C:\Users\hp\source\repos\Onyo_v1.0\OnyoModels\obj\Debug\netcoreapp3.1\OnyoModels.pdb

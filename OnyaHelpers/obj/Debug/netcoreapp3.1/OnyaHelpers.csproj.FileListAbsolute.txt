@@ -1,0 +1,56 @@
+C:/Users/hp/source/repos/Onyo_v1.0/OnyaHelpers/obj/Debug/netcoreapp3.1/OnyaHelpers.GeneratedMSBuildEditorConfig.editorconfig
+C:/Users/hp/source/repos/Onyo_v1.0/OnyaHelpers/obj/Debug/netcoreapp3.1/OnyaHelpers.AssemblyInfoInputs.cache
+C:/Users/hp/source/repos/Onyo_v1.0/OnyaHelpers/obj/Debug/netcoreapp3.1/OnyaHelpers.AssemblyInfo.cs
+C:/Users/hp/source/repos/Onyo_v1.0/OnyaHelpers/obj/Debug/netcoreapp3.1/OnyaHelpers.csproj.CoreCompileInputs.cache
+C:/Users/hp/source/repos/Onyo_v1.0/OnyaHelpers/bin/Debug/netcoreapp3.1/OnyaHelpers.exe
+C:/Users/hp/source/repos/Onyo_v1.0/OnyaHelpers/bin/Debug/netcoreapp3.1/OnyaHelpers.deps.json
+C:/Users/hp/source/repos/Onyo_v1.0/OnyaHelpers/bin/Debug/netcoreapp3.1/OnyaHelpers.runtimeconfig.json
+C:/Users/hp/source/repos/Onyo_v1.0/OnyaHelpers/bin/Debug/netcoreapp3.1/OnyaHelpers.runtimeconfig.dev.json
+C:/Users/hp/source/repos/Onyo_v1.0/OnyaHelpers/bin/Debug/netcoreapp3.1/OnyaHelpers.dll
+C:/Users/hp/source/repos/Onyo_v1.0/OnyaHelpers/bin/Debug/netcoreapp3.1/OnyaHelpers.pdb
+C:/Users/hp/source/repos/Onyo_v1.0/OnyaHelpers/bin/Debug/netcoreapp3.1/Dapper.dll
+C:/Users/hp/source/repos/Onyo_v1.0/OnyaHelpers/bin/Debug/netcoreapp3.1/Npgsql.dll
+C:/Users/hp/source/repos/Onyo_v1.0/OnyaHelpers/bin/Debug/netcoreapp3.1/System.Diagnostics.DiagnosticSource.dll
+C:/Users/hp/source/repos/Onyo_v1.0/OnyaHelpers/bin/Debug/netcoreapp3.1/System.Runtime.CompilerServices.Unsafe.dll
+C:/Users/hp/source/repos/Onyo_v1.0/OnyaHelpers/obj/Debug/netcoreapp3.1/OnyaHelpers.csproj.CopyComplete
+C:/Users/hp/source/repos/Onyo_v1.0/OnyaHelpers/obj/Debug/netcoreapp3.1/OnyaHelpers.dll
+C:/Users/hp/source/repos/Onyo_v1.0/OnyaHelpers/obj/Debug/netcoreapp3.1/OnyaHelpers.pdb
+C:/Users/hp/source/repos/Onyo_v1.0/OnyaHelpers/obj/Debug/netcoreapp3.1/OnyaHelpers.genruntimeconfig.cache
+/Users/stupasportanalytics/Downloads/Onyo_v1.0 2/OnyaHelpers/bin/Debug/netcoreapp3.1/OnyaHelpers
+/Users/stupasportanalytics/Downloads/Onyo_v1.0 2/OnyaHelpers/bin/Debug/netcoreapp3.1/OnyaHelpers.deps.json
+/Users/stupasportanalytics/Downloads/Onyo_v1.0 2/OnyaHelpers/bin/Debug/netcoreapp3.1/OnyaHelpers.runtimeconfig.json
+/Users/stupasportanalytics/Downloads/Onyo_v1.0 2/OnyaHelpers/bin/Debug/netcoreapp3.1/OnyaHelpers.runtimeconfig.dev.json
+/Users/stupasportanalytics/Downloads/Onyo_v1.0 2/OnyaHelpers/bin/Debug/netcoreapp3.1/OnyaHelpers.dll
+/Users/stupasportanalytics/Downloads/Onyo_v1.0 2/OnyaHelpers/bin/Debug/netcoreapp3.1/OnyaHelpers.pdb
+/Users/stupasportanalytics/Downloads/Onyo_v1.0 2/OnyaHelpers/bin/Debug/netcoreapp3.1/Dapper.dll
+/Users/stupasportanalytics/Downloads/Onyo_v1.0 2/OnyaHelpers/bin/Debug/netcoreapp3.1/Npgsql.dll
+/Users/stupasportanalytics/Downloads/Onyo_v1.0 2/OnyaHelpers/bin/Debug/netcoreapp3.1/System.Diagnostics.DiagnosticSource.dll
+/Users/stupasportanalytics/Downloads/Onyo_v1.0 2/OnyaHelpers/bin/Debug/netcoreapp3.1/System.Runtime.CompilerServices.Unsafe.dll
+/Users/stupasportanalytics/Downloads/Onyo_v1.0 2/OnyaHelpers/obj/Debug/netcoreapp3.1/OnyaHelpers.csproj.AssemblyReference.cache
+/Users/stupasportanalytics/Downloads/Onyo_v1.0 2/OnyaHelpers/obj/Debug/netcoreapp3.1/OnyaHelpers.GeneratedMSBuildEditorConfig.editorconfig
+/Users/stupasportanalytics/Downloads/Onyo_v1.0 2/OnyaHelpers/obj/Debug/netcoreapp3.1/OnyaHelpers.AssemblyInfoInputs.cache
+/Users/stupasportanalytics/Downloads/Onyo_v1.0 2/OnyaHelpers/obj/Debug/netcoreapp3.1/OnyaHelpers.AssemblyInfo.cs
+/Users/stupasportanalytics/Downloads/Onyo_v1.0 2/OnyaHelpers/obj/Debug/netcoreapp3.1/OnyaHelpers.csproj.CoreCompileInputs.cache
+/Users/stupasportanalytics/Downloads/Onyo_v1.0 2/OnyaHelpers/obj/Debug/netcoreapp3.1/OnyaHelpers.csproj.CopyComplete
+/Users/stupasportanalytics/Downloads/Onyo_v1.0 2/OnyaHelpers/obj/Debug/netcoreapp3.1/OnyaHelpers.dll
+/Users/stupasportanalytics/Downloads/Onyo_v1.0 2/OnyaHelpers/obj/Debug/netcoreapp3.1/OnyaHelpers.pdb
+/Users/stupasportanalytics/Downloads/Onyo_v1.0 2/OnyaHelpers/obj/Debug/netcoreapp3.1/OnyaHelpers.genruntimeconfig.cache
+C:\AngularProjects\Practice Code\Onyo_v1.0 2\OnyaHelpers\bin\Debug\netcoreapp3.1\OnyaHelpers.exe
+C:\AngularProjects\Practice Code\Onyo_v1.0 2\OnyaHelpers\bin\Debug\netcoreapp3.1\OnyaHelpers.deps.json
+C:\AngularProjects\Practice Code\Onyo_v1.0 2\OnyaHelpers\bin\Debug\netcoreapp3.1\OnyaHelpers.runtimeconfig.json
+C:\AngularProjects\Practice Code\Onyo_v1.0 2\OnyaHelpers\bin\Debug\netcoreapp3.1\OnyaHelpers.runtimeconfig.dev.json
+C:\AngularProjects\Practice Code\Onyo_v1.0 2\OnyaHelpers\bin\Debug\netcoreapp3.1\OnyaHelpers.dll
+C:\AngularProjects\Practice Code\Onyo_v1.0 2\OnyaHelpers\bin\Debug\netcoreapp3.1\OnyaHelpers.pdb
+C:\AngularProjects\Practice Code\Onyo_v1.0 2\OnyaHelpers\bin\Debug\netcoreapp3.1\Dapper.dll
+C:\AngularProjects\Practice Code\Onyo_v1.0 2\OnyaHelpers\bin\Debug\netcoreapp3.1\Npgsql.dll
+C:\AngularProjects\Practice Code\Onyo_v1.0 2\OnyaHelpers\bin\Debug\netcoreapp3.1\System.Diagnostics.DiagnosticSource.dll
+C:\AngularProjects\Practice Code\Onyo_v1.0 2\OnyaHelpers\bin\Debug\netcoreapp3.1\System.Runtime.CompilerServices.Unsafe.dll
+C:\AngularProjects\Practice Code\Onyo_v1.0 2\OnyaHelpers\obj\Debug\netcoreapp3.1\OnyaHelpers.csproj.AssemblyReference.cache
+C:\AngularProjects\Practice Code\Onyo_v1.0 2\OnyaHelpers\obj\Debug\netcoreapp3.1\OnyaHelpers.GeneratedMSBuildEditorConfig.editorconfig
+C:\AngularProjects\Practice Code\Onyo_v1.0 2\OnyaHelpers\obj\Debug\netcoreapp3.1\OnyaHelpers.AssemblyInfoInputs.cache
+C:\AngularProjects\Practice Code\Onyo_v1.0 2\OnyaHelpers\obj\Debug\netcoreapp3.1\OnyaHelpers.AssemblyInfo.cs
+C:\AngularProjects\Practice Code\Onyo_v1.0 2\OnyaHelpers\obj\Debug\netcoreapp3.1\OnyaHelpers.csproj.CoreCompileInputs.cache
+C:\AngularProjects\Practice Code\Onyo_v1.0 2\OnyaHelpers\obj\Debug\netcoreapp3.1\OnyaHelpers.csproj.CopyComplete
+C:\AngularProjects\Practice Code\Onyo_v1.0 2\OnyaHelpers\obj\Debug\netcoreapp3.1\OnyaHelpers.dll
+C:\AngularProjects\Practice Code\Onyo_v1.0 2\OnyaHelpers\obj\Debug\netcoreapp3.1\OnyaHelpers.pdb
+C:\AngularProjects\Practice Code\Onyo_v1.0 2\OnyaHelpers\obj\Debug\netcoreapp3.1\OnyaHelpers.genruntimeconfig.cache

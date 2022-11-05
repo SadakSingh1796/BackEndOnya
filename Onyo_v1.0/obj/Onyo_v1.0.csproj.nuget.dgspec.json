@@ -1,0 +1,342 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\AngularProjects\\Practice Code\\Onyo_v1.0 2\\Onyo_v1.0\\Onyo_v1.0.csproj": {}
+  },
+  "projects": {
+    "C:\\AngularProjects\\Practice Code\\Onyo_v1.0 2\\OnyaDAL\\OnyaDAL.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\AngularProjects\\Practice Code\\Onyo_v1.0 2\\OnyaDAL\\OnyaDAL.csproj",
+        "projectName": "OnyaDAL",
+        "projectPath": "C:\\AngularProjects\\Practice Code\\Onyo_v1.0 2\\OnyaDAL\\OnyaDAL.csproj",
+        "packagesPath": "C:\\Users\\LENOVO STUPA\\.nuget\\packages\\",
+        "outputPath": "C:\\AngularProjects\\Practice Code\\Onyo_v1.0 2\\OnyaDAL\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\LENOVO STUPA\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {
+              "C:\\AngularProjects\\Practice Code\\Onyo_v1.0 2\\OnyaHelpers\\OnyaHelpers.csproj": {
+                "projectPath": "C:\\AngularProjects\\Practice Code\\Onyo_v1.0 2\\OnyaHelpers\\OnyaHelpers.csproj"
+              },
+              "C:\\AngularProjects\\Practice Code\\Onyo_v1.0 2\\OnyoModels\\OnyaModels.csproj": {
+                "projectPath": "C:\\AngularProjects\\Practice Code\\Onyo_v1.0 2\\OnyoModels\\OnyaModels.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "dependencies": {
+            "Dapper": {
+              "target": "Package",
+              "version": "[2.0.123, )"
+            },
+            "Microsoft.Extensions.Configuration.Abstractions": {
+              "target": "Package",
+              "version": "[6.0.0, )"
+            },
+            "Npgsql": {
+              "target": "Package",
+              "version": "[6.0.7, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.413\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\AngularProjects\\Practice Code\\Onyo_v1.0 2\\OnyaHelpers\\OnyaHelpers.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\AngularProjects\\Practice Code\\Onyo_v1.0 2\\OnyaHelpers\\OnyaHelpers.csproj",
+        "projectName": "OnyaHelpers",
+        "projectPath": "C:\\AngularProjects\\Practice Code\\Onyo_v1.0 2\\OnyaHelpers\\OnyaHelpers.csproj",
+        "packagesPath": "C:\\Users\\LENOVO STUPA\\.nuget\\packages\\",
+        "outputPath": "C:\\AngularProjects\\Practice Code\\Onyo_v1.0 2\\OnyaHelpers\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\LENOVO STUPA\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "dependencies": {
+            "Dapper": {
+              "target": "Package",
+              "version": "[2.0.123, )"
+            },
+            "Npgsql": {
+              "target": "Package",
+              "version": "[6.0.7, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.413\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\AngularProjects\\Practice Code\\Onyo_v1.0 2\\OnyaServices\\OnyaServices.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\AngularProjects\\Practice Code\\Onyo_v1.0 2\\OnyaServices\\OnyaServices.csproj",
+        "projectName": "OnyaServices",
+        "projectPath": "C:\\AngularProjects\\Practice Code\\Onyo_v1.0 2\\OnyaServices\\OnyaServices.csproj",
+        "packagesPath": "C:\\Users\\LENOVO STUPA\\.nuget\\packages\\",
+        "outputPath": "C:\\AngularProjects\\Practice Code\\Onyo_v1.0 2\\OnyaServices\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\LENOVO STUPA\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {
+              "C:\\AngularProjects\\Practice Code\\Onyo_v1.0 2\\OnyaDAL\\OnyaDAL.csproj": {
+                "projectPath": "C:\\AngularProjects\\Practice Code\\Onyo_v1.0 2\\OnyaDAL\\OnyaDAL.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "dependencies": {
+            "Dapper": {
+              "target": "Package",
+              "version": "[2.0.123, )"
+            },
+            "Microsoft.Extensions.Configuration.Abstractions": {
+              "target": "Package",
+              "version": "[6.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.413\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\AngularProjects\\Practice Code\\Onyo_v1.0 2\\OnyoModels\\OnyaModels.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\AngularProjects\\Practice Code\\Onyo_v1.0 2\\OnyoModels\\OnyaModels.csproj",
+        "projectName": "OnyaModels",
+        "projectPath": "C:\\AngularProjects\\Practice Code\\Onyo_v1.0 2\\OnyoModels\\OnyaModels.csproj",
+        "packagesPath": "C:\\Users\\LENOVO STUPA\\.nuget\\packages\\",
+        "outputPath": "C:\\AngularProjects\\Practice Code\\Onyo_v1.0 2\\OnyoModels\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\LENOVO STUPA\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "dependencies": {
+            "Dapper": {
+              "target": "Package",
+              "version": "[2.0.123, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.413\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\AngularProjects\\Practice Code\\Onyo_v1.0 2\\Onyo_v1.0\\Onyo_v1.0.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\AngularProjects\\Practice Code\\Onyo_v1.0 2\\Onyo_v1.0\\Onyo_v1.0.csproj",
+        "projectName": "Onyo_v1.0",
+        "projectPath": "C:\\AngularProjects\\Practice Code\\Onyo_v1.0 2\\Onyo_v1.0\\Onyo_v1.0.csproj",
+        "packagesPath": "C:\\Users\\LENOVO STUPA\\.nuget\\packages\\",
+        "outputPath": "C:\\AngularProjects\\Practice Code\\Onyo_v1.0 2\\Onyo_v1.0\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\LENOVO STUPA\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {
+              "C:\\AngularProjects\\Practice Code\\Onyo_v1.0 2\\OnyaServices\\OnyaServices.csproj": {
+                "projectPath": "C:\\AngularProjects\\Practice Code\\Onyo_v1.0 2\\OnyaServices\\OnyaServices.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "dependencies": {
+            "Dapper": {
+              "target": "Package",
+              "version": "[2.0.123, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.413\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
