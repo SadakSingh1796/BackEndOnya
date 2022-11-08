@@ -3,14 +3,10 @@ using Microsoft.Extensions.Logging;
 using OnyaServices;
 using System;
 using System.Collections.Generic;
-using System.Linq;
-using System.Reflection;
-using System.Threading.Tasks;
 using static OnyaModels.CommonModel;
 using static OnyaModels.DocumentsModel;
 using static OnyaModels.UserAuthModel;
 using static OnyaModels.UserOnyaModel;
-using static OnyaModels.VehiclesModel;
 
 namespace Onyo_v1._0.Controllers
 {
@@ -84,6 +80,42 @@ namespace Onyo_v1._0.Controllers
                 userDocuments.Add(governmentId);
 
                 return new ApiResult() { isSuccess = true, data = userDocuments };
+            }
+            catch (Exception ex)
+            {
+                return new ApiResult() { isSuccess = false, message = ex.Message };
+            }
+        }
+
+        [HttpPost]
+        public ApiResult CreateOnyas(List<CreateOnyaRequestModel> modelArray)
+        {
+            try
+            {
+                foreach (CreateOnyaRequestModel model in modelArray)
+                {
+                    if (model.userid == null || model.userid == 0)
+                    {
+                        return new ApiResult() { isSuccess = false, message = "User Id is required!" };
+                    }
+
+                    int onyaId = onyaService.CreateOnya(model.userid, model.packagesize, model.packageweight, model.packagetype, model.comments,
+                        model.pickupdate, model.pickuplat, model.pickuplong, model.pickupaddress, model.droplat, model.droplong, model.dropaddress,
+                        model.pickuppoint, model.droppoint, model.pickupslot, model.dropslot, model.receiveremail, model.receiverphone, model.amount,
+                        model.cancounter);
+
+                    if (onyaId != null && onyaId > 0)
+                    {
+                        //do nothing
+                    }
+                    else
+                    {
+                        return new ApiResult() { isSuccess = true, data = "Something went wrong. Please try again!" };
+                    }
+                }
+
+                return new ApiResult() { isSuccess = true, data = "Onya created succesfully" };
+
             }
             catch (Exception ex)
             {

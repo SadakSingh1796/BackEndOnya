@@ -1,13 +1,7 @@
 ﻿using Microsoft.Extensions.Configuration;
 using System;
 using System.Collections.Generic;
-using System.ComponentModel;
-using System.Numerics;
-using System.Reflection.Metadata;
-using System.Text;
-using System.Xml.Linq;
 using static OnyaModels.UserOnyaModel;
-using static OnyaModels.VehiclesModel;
 
 namespace OnyaServices
 {
@@ -28,7 +22,7 @@ namespace OnyaServices
                 string query = string.Format(@" select onyaid,userid,driverid,packagesize,packageweight,packagetype,comments,pickupdate,pickuplat,
                                         pickuplong,pickupaddress,droplat,droplong,dropaddress,pickuppoint,droppoint,pickupslot,dropslot,
                                         receiveremail,receiverphone,amount,cancounter,status,driverstatus from dbo.tbl_onyas");
-                return helper.GetList<OnyaModel>(query);
+                return helper.GetList<OnyaModel>(query, new { query = query });
             }
             catch (Exception ex)
             {
@@ -43,7 +37,7 @@ namespace OnyaServices
                 string query = string.Format(@" select onyaid,userid,driverid,packagesize,packageweight,packagetype,comments,pickupdate,pickuplat,
                                         pickuplong,pickupaddress,droplat,droplong,dropaddress,pickuppoint,droppoint,pickupslot,dropslot,
                                         receiveremail,receiverphone,amount,cancounter,status,driverstatus from dbo.tbl_onyas where userid = @userid");
-                return helper.GetList<OnyaModel>(query);
+                return helper.GetList<OnyaModel>(query, new { query = query, userid = userid });
             }
             catch (Exception ex)
             {
@@ -58,7 +52,7 @@ namespace OnyaServices
                 string query = string.Format(@" select onyaid,userid,driverid,packagesize,packageweight,packagetype,comments,pickupdate,pickuplat,
                                         pickuplong,pickupaddress,droplat,droplong,dropaddress,pickuppoint,droppoint,pickupslot,dropslot,
                                         receiveremail,receiverphone,amount,cancounter,status,driverstatus from dbo.tbl_onyas where driverid = @userid");
-                return helper.GetList<OnyaModel>(query);
+                return helper.GetList<OnyaModel>(query, new { query = query, userid = userid });
             }
             catch (Exception ex)
             {

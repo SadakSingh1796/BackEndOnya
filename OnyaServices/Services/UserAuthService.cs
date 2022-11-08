@@ -1,14 +1,10 @@
 ﻿using Microsoft.Extensions.Configuration;
 using System;
 using System.Collections.Generic;
-using System.Numerics;
-using System.Text;
-using System.Xml.Linq;
 using static OnyaModels.UserAuthModel;
 
 namespace OnyaServices
 {
-
     public class UserAuthService
     {
         private QueryHelper helper;
@@ -23,8 +19,8 @@ namespace OnyaServices
         {
             try
             {
-                string query = string.Format(@"select userid,name,email,phone,isemailverified,ismobileverified,accountcreated,isactive,isdeleted,isverifiedbyadmin,devicetype from dbo.tbl_users where  email = @email or phone = @phone");
-                return helper.GetList<AllUserModel>(query);
+                string query = string.Format(@"select userid,name,email,phone,isemailverified,ismobileverified,accountcreated,isactive,isdeleted,isverifiedbyadmin,devicetype from dbo.tbl_users");
+                return helper.GetList<AllUserModel>(query , new { query = query });
             }
             catch (Exception ex)
             {
@@ -117,5 +113,4 @@ namespace OnyaServices
             return 0;
         }
     }
-
 }

@@ -27,6 +27,21 @@ namespace Onyo_v1._0
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
+            services.AddCors(); // Make sure you call this previous to AddMvc
+            //SetupJWTServices(services);
+            services.AddControllers();
+            services.AddCors(option =>
+            {
+                option.AddPolicy("ClientPermission", bulder =>
+                {
+                    bulder.AllowAnyHeader()
+                        .AllowAnyMethod()
+                        .AllowAnyOrigin()
+                        .SetIsOriginAllowed((host) => true)
+                        .AllowCredentials();
+                });
+            });
+
             services.AddControllersWithViews();
             services.AddControllers();
         }
