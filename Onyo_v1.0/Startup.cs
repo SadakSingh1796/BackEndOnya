@@ -31,17 +31,17 @@ namespace Onyo_v1._0
             //SetupJWTServices(services);
             services.AddControllers();
 
-            services.AddCors(option =>
-            {
-                option.AddPolicy("ClientPermission", bulder =>
-                {
-                    bulder.AllowAnyHeader()
-                        .AllowAnyMethod()
-                        .AllowAnyOrigin()
-                        .SetIsOriginAllowed((host) => true)
-                        .AllowCredentials();
-                });
-            });
+            //services.AddCors(option =>
+            //{
+            //    option.AddPolicy("ClientPermission", bulder =>
+            //    {
+            //        bulder.AllowAnyHeader()
+            //            .AllowAnyMethod()
+            //            .AllowAnyOrigin()
+            //            .SetIsOriginAllowed((host) => true)
+            //            .AllowCredentials();
+            //    });
+            //});
 
             services.AddControllersWithViews();
             services.AddControllers();
