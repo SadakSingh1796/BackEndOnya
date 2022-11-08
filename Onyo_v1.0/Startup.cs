@@ -30,6 +30,7 @@ namespace Onyo_v1._0
             services.AddCors(); // Make sure you call this previous to AddMvc
             //SetupJWTServices(services);
             services.AddControllers();
+
             services.AddCors(option =>
             {
                 option.AddPolicy("ClientPermission", bulder =>
@@ -64,6 +65,14 @@ namespace Onyo_v1._0
 
             app.UseRouting();
 
+            app.UseAuthorization();
+
+            app.UseCors(x => x
+              .AllowAnyMethod()
+              .AllowAnyHeader()
+              .SetIsOriginAllowed(origin => true) // allow any origin
+              .AllowCredentials()); // allow credentials
+            app.UseAuthentication();
             app.UseAuthorization();
 
             app.UseEndpoints(endpoints =>
