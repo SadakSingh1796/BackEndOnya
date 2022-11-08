@@ -19,7 +19,7 @@ namespace OnyaServices
         {
             try
             {
-                string query = string.Format(@"select userid,name,email,phone,isemailverified,ismobileverified,accountcreated,isactive,isdeleted,isverifiedbyadmin,devicetype from dbo.tbl_users");
+                string query = string.Format(@"select userid,name,email,phone,isemailverified,ismobileverified,accountcreated,isactive,isdeleted,isverifiedbyadmin,devicetype from dbo.tbl_users order by userid desc");
                 return helper.GetList<AllUserModel>(query , new { query = query });
             }
             catch (Exception ex)
@@ -112,5 +112,12 @@ namespace OnyaServices
 
             return 0;
         }
+
+        public int UpdateUserStatus(bool isVerified, int userid)
+        {
+            string query = string.Format(@"update dbo.tbl_users set isverifiedbyadmin = @isverified where userid = @userid;");
+            return helper.ExecuteNonQuery(query.ToLower(), new { isVerified = isVerified, userid = userid });
+        }
+
     }
 }

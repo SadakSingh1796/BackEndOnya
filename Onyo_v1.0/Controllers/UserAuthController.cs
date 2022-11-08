@@ -94,11 +94,14 @@ namespace Onyo_v1._0.Controllers
                     return new ApiResult() { isSuccess = false, message = "User already exists!" };
                 }
 
-                int response = userAuthService.InsertUser(model.name, model.email, model.phone, DateTime.UtcNow, model.notificationToken, model.deviceType);
+                int userid = userAuthService.InsertUser(model.name, model.email, model.phone, DateTime.UtcNow, model.notificationToken, model.deviceType);
 
-                if (response > 0)
+                SignupResponseModel signupResponseModel = new SignupResponseModel();
+                signupResponseModel.userid = userid;
+
+                if (userid > 0)
                 {
-                    return new ApiResult() { isSuccess = true, message = "User created successfully!" };
+                    return new ApiResult() { isSuccess = true, message = "User created successfully!",data = signupResponseModel };
                 }
                 else
                 {

@@ -52,12 +52,17 @@ namespace OnyaModels
 
         public class SignupModel
         {
-            public int name { get; set; }
+            public string name { get; set; }
             public string email { get; set; }
             public string phone { get; set; }
             public DateTime accountcreated { get; set; }
             public string notificationtoken { get; set; }
             public int devicetype { get; set; }
+        }
+
+        public class SignupResponseModel
+        {
+            public int userid { get; set; }
         }
 
         public class SocialSignupModel
@@ -70,5 +75,10 @@ namespace OnyaModels
             public int devicetype { get; set; }
         }
 
+        public class UserAdminVerifyModel
+        {
+            public int userid { get; set; }
+            public bool isverified { get; set; }
+        }
     }
 }
