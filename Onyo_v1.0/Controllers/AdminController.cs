@@ -134,7 +134,7 @@ namespace Onyo_v1._0.Controllers
 
                     int onyaId = onyaService.CreateOnya(model.userid, model.packagesize, model.packageweight, model.packagetype, model.comments,
                         model.pickupdate, model.pickuplat, model.pickuplong, model.pickupaddress, model.droplat, model.droplong, model.dropaddress,
-                        model.pickuppoint, model.droppoint, model.pickupslot, model.dropslot, model.receiveremail, model.receiverphone, model.amount,
+                        model.pickuppoint, model.droppoint, model.pickupslot, model.dropslot, model.receivername, model.receiveremail, model.receiverphone, model.amount,
                         model.cancounter);
 
                     if (onyaId != null && onyaId > 0)

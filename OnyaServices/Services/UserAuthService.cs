@@ -1,6 +1,7 @@
 ﻿using Microsoft.Extensions.Configuration;
 using System;
 using System.Collections.Generic;
+using static OnyaModels.HomeModel;
 using static OnyaModels.UserAuthModel;
 
 namespace OnyaServices
@@ -72,6 +73,21 @@ namespace OnyaServices
             {
                 string query = string.Format(@"select userid,name,email,phone,isemailverified,ismobileverified,isverifiedbyadmin from dbo.tbl_users where  email = @email or phone = @phone");
                 return helper.Get<UserModel>(query, new { email = email, phone = phone });
+            }
+            catch (Exception ex)
+            {
+
+            }
+
+            return null;
+        }
+
+        public HomeUserModel GetUserById(int userid)
+        {
+            try
+            {
+                string query = string.Format(@"select name,email,phone from dbo.tbl_users where  userid = @userid");
+                return helper.Get<HomeUserModel>(query, new { userid = userid });
             }
             catch (Exception ex)
             {

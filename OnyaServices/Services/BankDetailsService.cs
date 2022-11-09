@@ -26,7 +26,7 @@ namespace OnyaServices
             try
             {
                 string query = string.Format(@" select id,userid,holdername,accounttype,bankname,bsbnumber,accountnumber,isprimary from dbo.tbl_bank_details where userid = @userid");
-                return helper.GetList<BankDetailModel>(query);
+                return helper.GetList<BankDetailModel>(query, new { userid  = userid });
             }
             catch (Exception ex)
             {

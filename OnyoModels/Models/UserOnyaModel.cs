@@ -25,11 +25,13 @@ namespace OnyaModels
             public string droppoint { get; set; }
             public string pickupslot { get; set; }
             public string dropslot { get; set; }
+            public string receivername { get; set; }
             public string receiveremail { get; set; }
             public string receiverphone { get; set; }
             public double amount { get; set; }
             public bool cancounter { get; set; }
             public int status { get; set; }
+            public List<String> images { get; set; }
         }
 
         public class OnyaModel
@@ -52,6 +54,7 @@ namespace OnyaModels
             public string droppoint { get; set; }
             public string pickupslot { get; set; }
             public string dropslot { get; set; }
+            public string receivername { get; set; }
             public string receiveremail { get; set; }
             public string receiverphone { get; set; }
             public double amount { get; set; }

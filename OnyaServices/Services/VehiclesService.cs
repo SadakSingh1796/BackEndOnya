@@ -25,7 +25,7 @@ namespace OnyaServices
             try
             {
                 string query = string.Format(@" select vehicleid,userid,registrationnumber,vehicletype,photofront,photoback,isregisteredentity,registeredownername,owntrailer,regonumber from dbo.tbl_vehicles where userid = @userid");
-                return helper.GetList<VehicleModel>(query);
+                return helper.GetList<VehicleModel>(query, new { userid  = userid });
             }
             catch (Exception ex)
             {

@@ -26,7 +26,7 @@ namespace OnyaServices
             try
             {
                 string query = string.Format(@" select documentid,userid,profile,passport,license,governmentid,isverified from dbo.tbl_documents where userid = @userid");
-                return helper.GetList<DocumentModel>(query);
+                return helper.GetList<DocumentModel>(query, new { userid  = userid });
             }
             catch (Exception ex)
             {
@@ -40,7 +40,7 @@ namespace OnyaServices
             try
             {
                 string query = string.Format(@" select documentid,userid,profile,passport,license,governmentid,isverified from dbo.tbl_documents where userid = @userid");
-                return helper.Get<DocumentModel>(query);
+                return helper.Get<DocumentModel>(query, new { userid = userid });
             }
             catch (Exception ex)
             {
