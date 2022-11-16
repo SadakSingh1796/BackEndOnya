@@ -56,6 +56,10 @@ namespace Onyo_v1._0.Controllers
 
                 DocumentModel document = documentsService.GetUserDocument(userId);
 
+                UserDocumentModel userDocumentModel = new UserDocumentModel();
+
+                userDocumentModel.isverified = document.isverified;
+
                 List<UserDocument> userDocuments = new List<UserDocument>();
 
                 UserDocument profile = new UserDocument();
@@ -79,7 +83,9 @@ namespace Onyo_v1._0.Controllers
                 userDocuments.Add(license);
                 userDocuments.Add(governmentId);
 
-                return new ApiResult() { isSuccess = true, data = userDocuments };
+                userDocumentModel.userDocuments = userDocuments;
+
+                return new ApiResult() { isSuccess = true, data = userDocumentModel };
             }
             catch (Exception ex)
             {

@@ -16,6 +16,12 @@ namespace OnyaModels
             public string governmentid { get; set; }
         }
 
+        public class UserDocumentModel
+        {
+            public List<UserDocument> userDocuments { get; set; }
+            public bool isverified { get; set; }
+        }
+
         public class DocumentModel
         {
             public int documentid { get; set; }
