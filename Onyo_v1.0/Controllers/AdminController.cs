@@ -121,6 +121,39 @@ namespace Onyo_v1._0.Controllers
         }
 
         [HttpPost]
+        public ApiResult VerifyUserDocuments(UserAdminVerifyModel model)
+        {
+            try
+            {
+                if (model.userid == null || model.userid == 0)
+                {
+                    return new ApiResult() { isSuccess = false, message = "User Id is required!" };
+                }
+
+                if (model.isverified == null)
+                {
+                    return new ApiResult() { isSuccess = false, message = "Status is required!" };
+                }
+
+                int onyaId = userAuthService.VerifyUserDocuments(model.isverified, model.userid);
+
+                if (onyaId != null && onyaId > 0)
+                {
+                    return new ApiResult() { isSuccess = true, data = "User's documents verified successfully" };
+                }
+                else
+                {
+                    return new ApiResult() { isSuccess = true, data = "Something went wrong. Please try again!" };
+                }
+
+            }
+            catch (Exception ex)
+            {
+                return new ApiResult() { isSuccess = false, message = ex.Message };
+            }
+        }
+
+        [HttpPost]
         public ApiResult CreateOnyas(List<CreateOnyaRequestModel> modelArray)
         {
             try
