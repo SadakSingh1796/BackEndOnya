@@ -1,6 +1,9 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Diagnostics;
 using System.Text;
+using System.Text.Json;
+using System.Text.Json.Serialization;
 
 namespace OnyaModels
 {
@@ -17,6 +20,20 @@ namespace OnyaModels
         {
             public int userid { get; set; }
             public string name { get; set; }
+        }
+
+        public class CustomDateTimeConverter : JsonConverter<DateTime>
+        {
+            public override DateTime Read(ref Utf8JsonReader reader, Type typeToConvert, JsonSerializerOptions options)
+            {
+                throw new NotImplementedException();
+            }
+
+            public override void Write(Utf8JsonWriter writer, DateTime value, JsonSerializerOptions options)
+            {
+                //Don't implement this unless you're going to use the custom converter for serialization too
+                throw new NotImplementedException();
+            }
         }
     }
 }

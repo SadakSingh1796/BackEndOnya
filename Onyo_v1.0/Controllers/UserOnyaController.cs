@@ -3,6 +3,7 @@ using Microsoft.Extensions.Logging;
 using OnyaServices;
 using System;
 using System.Collections.Generic;
+using System.Reflection.PortableExecutable;
 using static OnyaModels.CommonModel;
 using static OnyaModels.UserOnyaModel;
 
@@ -35,8 +36,11 @@ namespace Onyo_v1._0.Controllers
                     return new ApiResult() { isSuccess = false, message = "User Id is required!" };
                 }
 
+
+                DateTime dateTime = DateTime.ParseExact(model.pickupdate, "yyyy-MM-dd HH:mm:ss", null);
+
                 int onyaId = onyaService.CreateOnya(model.userid,model.packagesize,model.packageweight,model.packagetype,model.comments,
-                    model.pickupdate,model.pickuplat,model.pickuplong,model.pickupaddress,model.droplat,model.droplong,model.dropaddress,
+                    dateTime,model.pickuplat,model.pickuplong,model.pickupaddress,model.droplat,model.droplong,model.dropaddress,
                     model.pickuppoint,model.droppoint,model.pickupslot,model.dropslot,model.receivername, model.receiveremail,model.receiverphone,model.amount,model.cancounter);
 
                 if (onyaId != null && onyaId > 0)

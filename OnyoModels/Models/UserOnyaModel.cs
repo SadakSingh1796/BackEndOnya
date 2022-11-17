@@ -14,7 +14,7 @@ namespace OnyaModels
             public double packageweight { get; set; }
             public string packagetype { get; set; }
             public string comments { get; set; }
-            public DateTime pickupdate { get; set; }
+            public String pickupdate { get; set; }
             public double pickuplat { get; set; }
             public double pickuplong { get; set; }
             public string pickupaddress { get; set; }
