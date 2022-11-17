@@ -2,6 +2,7 @@
 using System;
 using System.Collections.Generic;
 using static OnyaModels.UserOnyaModel;
+using static System.Net.Mime.MediaTypeNames;
 
 namespace OnyaServices
 {
@@ -94,6 +95,28 @@ namespace OnyaServices
                     receiverphone = receiverphone,
                     amount = amount,
                     cancounter = cancounter
+                });
+            }
+            catch (Exception ex)
+            {
+
+            }
+
+            return 0;
+        }
+
+        public int InsertOnyaImages(int onyaid, string image, int imagetype)
+        {
+            try
+            {
+                string query = string.Format(@" insert into dbo.tbl_onya_images(onyaid, image, imagetype)
+                                                values(@onyaid,@image,@imagetype) RETURNING id;");
+
+                return helper.InsertAndGetId(query, new
+                {
+                    onyaid = onyaid,
+                    image = image,
+                    imagetype = imagetype
                 });
             }
             catch (Exception ex)

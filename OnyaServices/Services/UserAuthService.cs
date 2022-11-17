@@ -86,7 +86,7 @@ namespace OnyaServices
         {
             try
             {
-                string query = string.Format(@"select name,email,phone from dbo.tbl_users where  userid = @userid");
+                string query = string.Format(@"select name,email,phone,isverifiedbyadmin from dbo.tbl_users where  userid = @userid");
                 return helper.Get<HomeUserModel>(query, new { userid = userid });
             }
             catch (Exception ex)

@@ -41,6 +41,11 @@ namespace Onyo_v1._0.Controllers
 
                 if (onyaId != null && onyaId > 0)
                 {
+                    foreach(String image in model.images)
+                    {
+                        onyaService.InsertOnyaImages(onyaId, image, 1);
+                    }
+
                     return new ApiResult() { isSuccess = true, data = "Onya created succesfully" };
                 }
                 else
