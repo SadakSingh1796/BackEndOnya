@@ -61,6 +61,9 @@ namespace OnyaModels
             public bool cancounter { get; set; }
             public int status { get; set; }
             public int driverstatus { get; set; }
+            public int ownerid { get; set; }
+            public string ownername { get; set; }
+            public string ownerimage { get; set; }
         }
     }
 }
