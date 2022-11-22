@@ -36,7 +36,6 @@ namespace Onyo_v1._0.Controllers
                     return new ApiResult() { isSuccess = false, message = "User Id is required!" };
                 }
 
-
                 DateTime dateTime = DateTime.ParseExact(model.pickupdate, "yyyy-MM-dd HH:mm:ss", null);
 
                 int onyaId = onyaService.CreateOnya(model.userid,model.packagesize,model.packageweight,model.packagetype,model.comments,
@@ -74,6 +73,26 @@ namespace Onyo_v1._0.Controllers
                 }
 
                 List<OnyaModel> onyas = onyaService.GetUserOnyas(userId);
+
+                return new ApiResult() { isSuccess = true, data = onyas };
+            }
+            catch (Exception ex)
+            {
+                return new ApiResult() { isSuccess = false, message = ex.Message };
+            }
+        }
+
+        [HttpGet]
+        public ApiResult GetAllOtherOnyas(int userId)
+        {
+            try
+            {
+                if (userId == null || userId == 0)
+                {
+                    return new ApiResult() { isSuccess = false, message = "User Id is required!" };
+                }
+
+                List<OnyaModel> onyas = onyaService.AllOtherOnyas(userId);
 
                 return new ApiResult() { isSuccess = true, data = onyas };
             }

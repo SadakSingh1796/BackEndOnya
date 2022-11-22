@@ -31,6 +31,26 @@ namespace OnyaServices
             return null;
         }
 
+        public List<OnyaModel> AllOtherOnyas(int userid)
+        {
+            try
+            {
+                string query = string.Format(@" select tbo.onyaid,tbo.userid,tbo.driverid,tbo.packagesize,tbo.packageweight,tbo.packagetype,tbo.comments,tbo.pickupdate,tbo.pickuplat,
+                                        tbo.pickuplong,tbo.pickupaddress,tbo.droplat,tbo.droplong,tbo.dropaddress,tbo.pickuppoint,
+										tbo.droppoint,tbo.pickupslot,tbo.dropslot,tbo.receivername,tbo.receiveremail,tbo.receiverphone,
+										tbo.amount,tbo.cancounter,tbo.status,tbo.driverstatus,tu.userid as ownerid,tu.name as ownername,td.profile as ownerimage
+										from dbo.tbl_onyas tbo 
+										inner join dbo.tbl_users tu on tbo.userid = tu.userid
+										inner join dbo.tbl_documents td on tbo.userid = td.userid
+										where tbo.userid != @userid");
+                return helper.GetList<OnyaModel>(query, new { query = query, userid = userid });
+            }
+            catch (Exception ex)
+            {
+            }
+            return null;
+        }
+
         public List<OnyaModel> GetUserOnyas(int userid)
         {
             try
