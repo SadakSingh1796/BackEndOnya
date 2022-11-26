@@ -122,5 +122,87 @@ namespace Onyo_v1._0.Controllers
             }
         }
 
+        [HttpPost]
+        public ApiResult SendOnyaRequest(OnyaRequestModel model)
+        {
+            try
+            {
+                if (model.driverid == null || model.driverid == 0)
+                {
+                    return new ApiResult() { isSuccess = false, message = "Driver Id is required!" };
+                }
+
+                if (model.onyaid == null || model.onyaid == 0)
+                {
+                    return new ApiResult() { isSuccess = false, message = "Onya Id is required!" };
+                }
+
+                int requestid = onyaService.InsertOnyaRequests(model.onyaid, model.driverid);
+
+                if (requestid != null && requestid > 0)
+                {
+                    return new ApiResult() { isSuccess = true, data = "Request sent succesfully" };
+                }
+                else
+                {
+                    return new ApiResult() { isSuccess = true, data = "Something went wrong. Please try again!" };
+                }
+            }
+            catch (Exception ex)
+            {
+                return new ApiResult() { isSuccess = false, message = ex.Message };
+            }
+        }
+
+        [HttpPost]
+        public ApiResult RespondOnyaRequest(OnyaRespondModel model)
+        {
+            try
+            {
+                if (model.driverid == null || model.driverid == 0)
+                {
+                    return new ApiResult() { isSuccess = false, message = "Driver Id is required!" };
+                }
+
+                if (model.onyaid == null || model.onyaid == 0)
+                {
+                    return new ApiResult() { isSuccess = false, message = "Onya Id is required!" };
+                }
+
+                if (model.isaccepted)
+                {
+                    int id = onyaService.UpdateDriverId(model.onyaid, model.driverid);
+
+                    if (id != null && id > 0)
+                    {
+                        return new ApiResult() { isSuccess = true, data = "Request accepted succesfully" };
+                    }
+                    else
+                    {
+                        return new ApiResult() { isSuccess = true, data = "Something went wrong. Please try again!" };
+                    }
+                }
+                else
+                {
+                    int id = onyaService.DeleteDriverRequest(model.onyaid, model.driverid);
+
+                    if (id != null && id > 0)
+                    {
+                        return new ApiResult() { isSuccess = true, data = "Request denied succesfully" };
+                    }
+                    else
+                    {
+                        return new ApiResult() { isSuccess = true, data = "Something went wrong. Please try again!" };
+                    }
+                }
+
+                return new ApiResult() { isSuccess = true, data = "Something went wrong. Please try again!" };
+            }
+            catch (Exception ex)
+            {
+                return new ApiResult() { isSuccess = false, message = ex.Message };
+            }
+        }
+
     }
 }

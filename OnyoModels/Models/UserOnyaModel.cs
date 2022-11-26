@@ -65,5 +65,18 @@ namespace OnyaModels
             public string ownername { get; set; }
             public string ownerimage { get; set; }
         }
+
+        public class OnyaRequestModel
+        {
+            public int onyaid { get; set; }
+            public int driverid { get; set; }
+        }
+
+        public class OnyaRespondModel
+        {
+            public int onyaid { get; set; }
+            public int driverid { get; set; }
+            public bool isaccepted { get; set; }
+        }
     }
 }

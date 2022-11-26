@@ -14,7 +14,7 @@ namespace OnyaModels
         {
             public HomeUserModel userModel { get; set; }
             public List<VehicleModel> vehicleModels { get; set; }
-            public DocumentModel documentModel { get; set; }
+            public List<DocumentModel> documentModel { get; set; }
             public List<BankDetailModel> bankDetailModels { get; set; }
             public List<OnyaModel> sendingOnyas { get; set; }
             public List<OnyaModel> deliveringOnyas { get; set; }
@@ -25,7 +25,8 @@ namespace OnyaModels
             public string name { get; set; }
             public string email { get; set; }
             public string phone { get; set; }
-            public bool isverifiedbyadmin { get; set; }
+            public bool isuserverified { get; set; }
+            public bool isdriververified { get; set; }
         }
     }
 }

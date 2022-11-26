@@ -38,7 +38,7 @@ namespace OnyaServices
                 string query = string.Format(@" select tbo.onyaid,tbo.userid,tbo.driverid,tbo.packagesize,tbo.packageweight,tbo.packagetype,tbo.comments,tbo.pickupdate,tbo.pickuplat,
                                         tbo.pickuplong,tbo.pickupaddress,tbo.droplat,tbo.droplong,tbo.dropaddress,tbo.pickuppoint,
 										tbo.droppoint,tbo.pickupslot,tbo.dropslot,tbo.receivername,tbo.receiveremail,tbo.receiverphone,
-										tbo.amount,tbo.cancounter,tbo.status,tbo.driverstatus,tu.userid as ownerid,tu.name as ownername,td.profile as ownerimage
+										tbo.amount,tbo.cancounter,tbo.status,tbo.driverstatus,tu.userid as ownerid,tu.name as ownername,td.url as ownerimage
 										from dbo.tbl_onyas tbo 
 										inner join dbo.tbl_users tu on tbo.userid = tu.userid
 										inner join dbo.tbl_documents td on tbo.userid = td.userid
@@ -91,9 +91,9 @@ namespace OnyaServices
             return null;
         }
 
-        public int CreateOnya(int userid, string packagesize, double packageweight, string packagetype, string comments, DateTime pickupdate, double pickuplat,double pickuplong,
-                                                string pickupaddress, double droplat,double droplong,string dropaddress,string pickuppoint,string droppoint,string pickupslot,
-                                                string dropslot,string receivername, string receiveremail,string receiverphone,double amount,bool cancounter)
+        public int CreateOnya(int userid, string packagesize, double packageweight, string packagetype, string comments, DateTime pickupdate, double pickuplat, double pickuplong,
+                                                string pickupaddress, double droplat, double droplong, string dropaddress, string pickuppoint, string droppoint, string pickupslot,
+                                                string dropslot, string receivername, string receiveremail, string receiverphone, double amount, bool cancounter)
         {
             try
             {
@@ -103,7 +103,8 @@ namespace OnyaServices
                                                 values(@userid,@packagesize,@packageweight,@packagetype,@comments,@pickupdate,@pickuplat,@pickuplong,
                                                 @pickupaddress,@droplat,@droplong,@dropaddress,@pickuppoint,@droppoint,@pickupslot,@dropslot,@receivername,@receiveremail,@receiverphone,
                                                 @amount,@cancounter,1) RETURNING onyaid;");
-                return helper.InsertAndGetId(query, new {
+                return helper.InsertAndGetId(query, new
+                {
                     userid = userid,
                     packagesize = packagesize,
                     packageweight = packageweight,
@@ -155,6 +156,39 @@ namespace OnyaServices
             }
 
             return 0;
+        }
+
+        public int InsertOnyaRequests(int onyaid, int driverid)
+        {
+            try
+            {
+                string query = string.Format(@" insert into dbo.tbl_onya_request(onyaid, driverid)
+                                                values(@onyaid,@driverid) RETURNING requestid;");
+
+                return helper.InsertAndGetId(query, new
+                {
+                    onyaid = onyaid,
+                    driverid = driverid
+                });
+            }
+            catch (Exception ex)
+            {
+
+            }
+
+            return 0;
+        }
+
+        public int UpdateDriverId(int onyaid, int driverid)
+        {
+            string query = string.Format(@"update dbo.tbl_onyas set driverid = @driverid where onyaid = @onyaid;");
+            return helper.ExecuteNonQuery(query.ToLower(), new { driverid = driverid, onyaid = onyaid });
+        }
+
+        public int DeleteDriverRequest(int onyaid, int driverid)
+        {
+            string query = string.Format(@"delete from dbo.tbl_onya_request where driverid = @driverid and onyaid = @onyaid;");
+            return helper.ExecuteNonQuery(query.ToLower(), new { driverid = driverid, onyaid = onyaid });
         }
     }
 

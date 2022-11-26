@@ -46,7 +46,7 @@ namespace Onyo_v1._0.Controllers
 
                 HomeUserModel userModel = userAuthService.GetUserById(userid);
                 List<VehicleModel> vehicleModels = vehiclesService.GetUserVehicles(userid);
-                DocumentModel documentModel = documentsService.GetUserDocument(userid);
+                List<DocumentModel> documentModel = documentsService.GetUserDocuments(userid);
                 List<BankDetailModel> bankDetailModels = bankDetailsService.GetUserBankDetails(userid);
                 List<OnyaModel> sendingOnyas = onyaService.GetUserOnyas(userid);
                 List<OnyaModel> deliveringOnyas = onyaService.GetDriverOnyas(userid);

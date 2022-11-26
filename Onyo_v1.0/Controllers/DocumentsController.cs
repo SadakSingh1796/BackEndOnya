@@ -53,9 +53,15 @@ namespace Onyo_v1._0.Controllers
                     return new ApiResult() { isSuccess = false, message = "Government Id is required!" };
                 }
 
-                int documentId = documentsService.InsertDocument(model.userid, model.profile, model.passport, model.license, model.governmentid);
+                int insertprofile = documentsService.InsertDocument(model.userid, "Profile", model.profile);
 
-                if (documentId != null && documentId > 0)
+                int insertlicense = documentsService.InsertDocument(model.userid, "License", model.license);
+
+                int insertpassport = documentsService.InsertDocument(model.userid, "Passport", model.passport);
+
+                int insertgovernmentid = documentsService.InsertDocument(model.userid, "Government Id", model.governmentid);
+
+                if (insertgovernmentid != null && insertgovernmentid > 0)
                 {
                     return new ApiResult() { isSuccess = true, data = "Documents added succesfully" };
                 }

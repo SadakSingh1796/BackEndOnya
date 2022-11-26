@@ -32,7 +32,8 @@ namespace OnyaModels
             public string phone { get; set; }
             public bool isemailverified { get; set; }
             public bool ismobileverified { get; set; }
-            public bool isverifiedbyadmin { get; set; }
+            public bool isuserverified { get; set; }
+            public bool isdriververified { get; set; }
         }
 
         public class AllUserModel
@@ -46,7 +47,8 @@ namespace OnyaModels
             public DateTime accountcreated { get; set; }
             public bool isactive { get; set; }
             public bool isdeleted { get; set; }
-            public bool isverifiedbyadmin { get; set; }
+            public bool isuserverified { get; set; }
+            public bool isdriververified { get; set; }
             public int devicetype { get; set; }
         }
 
@@ -79,6 +81,13 @@ namespace OnyaModels
         {
             public int userid { get; set; }
             public bool isverified { get; set; }
+        }
+
+        public class DocumentVerifyModel
+        {
+            public int documentid { get; set; }
+            public bool isverified { get; set; }
+            public string comment { get; set; }
         }
     }
 }

@@ -54,38 +54,22 @@ namespace Onyo_v1._0.Controllers
                     return new ApiResult() { isSuccess = false, message = "User Id is required!" };
                 }
 
-                DocumentModel document = documentsService.GetUserDocument(userId);
-
-                UserDocumentModel userDocumentModel = new UserDocumentModel();
-
-                userDocumentModel.isverified = document.isverified;
+                List<DocumentModel> documents = documentsService.GetUserDocuments(userId);
 
                 List<UserDocument> userDocuments = new List<UserDocument>();
 
-                UserDocument profile = new UserDocument();
-                profile.documentType = "Profile Picture";
-                profile.documentValue = document.profile;
+                foreach(DocumentModel document in documents)
+                {
+                    UserDocument doc = new UserDocument();
+                    doc.documentType = document.type;
+                    doc.documentValue = document.url;
+                    doc.isVerified = document.isverified;
+                    doc.comment = document.comment;
 
-                UserDocument passport = new UserDocument();
-                passport.documentType = "Passport";
-                passport.documentValue = document.passport;
+                    userDocuments.Add(doc);
+                }
 
-                UserDocument license = new UserDocument();
-                license.documentType = "License";
-                license.documentValue = document.license;
-
-                UserDocument governmentId = new UserDocument();
-                governmentId.documentType = "Government Id";
-                governmentId.documentValue = document.governmentid;
-
-                userDocuments.Add(profile);
-                userDocuments.Add(passport);
-                userDocuments.Add(license);
-                userDocuments.Add(governmentId);
-
-                userDocumentModel.userDocuments = userDocuments;
-
-                return new ApiResult() { isSuccess = true, data = userDocumentModel };
+                return new ApiResult() { isSuccess = true, data = userDocuments };
             }
             catch (Exception ex)
             {
@@ -127,7 +111,7 @@ namespace Onyo_v1._0.Controllers
         }
 
         [HttpPost]
-        public ApiResult VerifyUserDocuments(UserAdminVerifyModel model)
+        public ApiResult UpdateDriverStatus(UserAdminVerifyModel model)
         {
             try
             {
@@ -141,11 +125,44 @@ namespace Onyo_v1._0.Controllers
                     return new ApiResult() { isSuccess = false, message = "Status is required!" };
                 }
 
-                int onyaId = userAuthService.VerifyUserDocuments(model.isverified, model.userid);
+                int onyaId = userAuthService.UpdateDriverStatus(model.isverified, model.userid);
 
                 if (onyaId != null && onyaId > 0)
                 {
-                    return new ApiResult() { isSuccess = true, data = "User's documents verified successfully" };
+                    return new ApiResult() { isSuccess = true, data = "User's status updated successfully" };
+                }
+                else
+                {
+                    return new ApiResult() { isSuccess = true, data = "Something went wrong. Please try again!" };
+                }
+
+            }
+            catch (Exception ex)
+            {
+                return new ApiResult() { isSuccess = false, message = ex.Message };
+            }
+        }
+
+        [HttpPost]
+        public ApiResult VerifyUserDocuments(DocumentVerifyModel model)
+        {
+            try
+            {
+                if (model.documentid == null || model.documentid == 0)
+                {
+                    return new ApiResult() { isSuccess = false, message = "Document Id is required!" };
+                }
+
+                if (model.isverified == null)
+                {
+                    return new ApiResult() { isSuccess = false, message = "Status is required!" };
+                }
+
+                int onyaId = userAuthService.VerifyUserDocuments(model.documentid, model.isverified,model.comment);
+
+                if (onyaId != null && onyaId > 0)
+                {
+                    return new ApiResult() { isSuccess = true, data = "Document verified successfully" };
                 }
                 else
                 {
@@ -211,6 +228,48 @@ namespace Onyo_v1._0.Controllers
                 return new ApiResult() { isSuccess = false, message = ex.Message };
             }
         }
+
+        [HttpGet]
+        public ApiResult GetUserOnyas(int userId)
+        {
+            try
+            {
+                if (userId == null || userId == 0)
+                {
+                    return new ApiResult() { isSuccess = false, message = "User Id is required!" };
+                }
+
+                List<OnyaModel> sendingOnyas = onyaService.GetUserOnyas(userId);
+
+                return new ApiResult() { isSuccess = true, data = sendingOnyas };
+            }
+            catch (Exception ex)
+            {
+                return new ApiResult() { isSuccess = false, message = ex.Message };
+            }
+        }
+
+        [HttpGet]
+        public ApiResult GetDeliverOnyas(int userId)
+        {
+            try
+            {
+                if (userId == null || userId == 0)
+                {
+                    return new ApiResult() { isSuccess = false, message = "User Id is required!" };
+                }
+
+                List<OnyaModel> deliveringOnyas = onyaService.GetDriverOnyas(userId);
+
+                return new ApiResult() { isSuccess = true, data = deliveringOnyas };
+            }
+            catch (Exception ex)
+            {
+                return new ApiResult() { isSuccess = false, message = ex.Message };
+            }
+        }
+
+
 
     }
 }

@@ -26,17 +26,18 @@ namespace OnyaModels
         {
             public int documentid { get; set; }
             public int userid { get; set; }
-            public string profile { get; set; }
-            public string passport { get; set; }
-            public string license { get; set; }
-            public string governmentid { get; set; }
+            public string type { get; set; }
+            public string url { get; set; }
             public bool isverified { get; set; }
+            public string comment { get; set; }
         }
 
         public class UserDocument
         {
             public string documentType { get; set; }
             public string documentValue { get; set; }
+            public bool isVerified { get; set; }
+            public string comment { get; set; }
         }
     }
 }

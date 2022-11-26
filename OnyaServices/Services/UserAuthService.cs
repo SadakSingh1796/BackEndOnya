@@ -20,7 +20,7 @@ namespace OnyaServices
         {
             try
             {
-                string query = string.Format(@"select userid,name,email,phone,isemailverified,ismobileverified,accountcreated,isactive,isdeleted,isverifiedbyadmin,devicetype from dbo.tbl_users order by userid desc");
+                string query = string.Format(@"select userid,name,email,phone,isemailverified,ismobileverified,accountcreated,isactive,isdeleted,isuserverified,isdriververified,devicetype from dbo.tbl_users order by userid desc");
                 return helper.GetList<AllUserModel>(query , new { query = query });
             }
             catch (Exception ex)
@@ -56,7 +56,7 @@ namespace OnyaServices
 
                 filter += "'" + model.value + "'";
 
-                string query = string.Format(@" select userid,name,email,phone,isemailverified,ismobileverified,isverifiedbyadmin from dbo.tbl_users where " + filter + " and isactive = true and isdeleted = false");
+                string query = string.Format(@" select userid,name,email,phone,isemailverified,ismobileverified,isuserverified,isdriververified from dbo.tbl_users where " + filter + " and isactive = true and isdeleted = false");
                 return helper.Get<UserModel>(query);
             }
             catch (Exception ex)
@@ -71,7 +71,7 @@ namespace OnyaServices
         {
             try
             {
-                string query = string.Format(@"select userid,name,email,phone,isemailverified,ismobileverified,isverifiedbyadmin from dbo.tbl_users where  email = @email or phone = @phone");
+                string query = string.Format(@"select userid,name,email,phone,isemailverified,ismobileverified,isuserverified,isdriververified from dbo.tbl_users where  email = @email or phone = @phone");
                 return helper.Get<UserModel>(query, new { email = email, phone = phone });
             }
             catch (Exception ex)
@@ -86,7 +86,7 @@ namespace OnyaServices
         {
             try
             {
-                string query = string.Format(@"select name,email,phone,isverifiedbyadmin from dbo.tbl_users where  userid = @userid");
+                string query = string.Format(@"select name,email,phone,isuserverified,isdriververified from dbo.tbl_users where  userid = @userid");
                 return helper.Get<HomeUserModel>(query, new { userid = userid });
             }
             catch (Exception ex)
@@ -131,14 +131,20 @@ namespace OnyaServices
 
         public int UpdateUserStatus(bool isVerified, int userid)
         {
-            string query = string.Format(@"update dbo.tbl_users set isverifiedbyadmin = @isverified where userid = @userid;");
+            string query = string.Format(@"update dbo.tbl_users set isuserverified = @isverified where userid = @userid;");
             return helper.ExecuteNonQuery(query.ToLower(), new { isVerified = isVerified, userid = userid });
         }
 
-        public int VerifyUserDocuments(bool isverified, int userid)
+        public int UpdateDriverStatus(bool isVerified, int userid)
         {
-            string query = string.Format(@"update dbo.tbl_documents set isverified = @isverified where userid = @userid;");
-            return helper.ExecuteNonQuery(query.ToLower(), new { isverified = isverified, userid = userid });
+            string query = string.Format(@"update dbo.tbl_users set isdriververified = @isverified where userid = @userid;");
+            return helper.ExecuteNonQuery(query.ToLower(), new { isVerified = isVerified, userid = userid });
+        }
+
+        public int VerifyUserDocuments(int documentid, bool isverified, string comment)
+        {
+            string query = string.Format(@"update dbo.tbl_documents set isverified = @isverified and comment = @comment where documentid = @documentid;");
+            return helper.ExecuteNonQuery(query.ToLower(), new { isverified = isverified, documentid = documentid, comment = comment });
         }
     }
 }

@@ -25,7 +25,7 @@ namespace OnyaServices
         {
             try
             {
-                string query = string.Format(@" select documentid,userid,profile,passport,license,governmentid,isverified from dbo.tbl_documents where userid = @userid");
+                string query = string.Format(@" select documentid,userid,type,url,isverified,comment from dbo.tbl_documents where userid = @userid");
                 return helper.GetList<DocumentModel>(query, new { userid  = userid });
             }
             catch (Exception ex)
@@ -35,27 +35,13 @@ namespace OnyaServices
             return null;
         }
 
-        public DocumentModel GetUserDocument(int userid)
+        public int InsertDocument(int userid,string type, string url)
         {
             try
             {
-                string query = string.Format(@" select documentid,userid,profile,passport,license,governmentid,isverified from dbo.tbl_documents where userid = @userid");
-                return helper.Get<DocumentModel>(query, new { userid = userid });
-            }
-            catch (Exception ex)
-            {
-
-            }
-            return null;
-        }
-
-        public int InsertDocument(int userid,string profile, string passport, string license, string governmentid)
-        {
-            try
-            {
-                string query = string.Format(@" insert into dbo.tbl_documents(userid,profile,passport,license,governmentid)
-                values(@userid,@profile,@passport,@license,@governmentid) RETURNING documentid;");
-                return helper.InsertAndGetId(query, new { userid = userid, profile = profile, passport = passport, license = license, governmentid = governmentid });
+                string query = string.Format(@" insert into dbo.tbl_documents(userid,type,url)
+                values(@userid,@type,@url) RETURNING documentid;");
+                return helper.InsertAndGetId(query, new { userid = userid, type = type, url = url});
             }
             catch (Exception ex)
             {
