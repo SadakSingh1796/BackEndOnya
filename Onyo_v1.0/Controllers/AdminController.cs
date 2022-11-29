@@ -283,6 +283,13 @@ namespace Onyo_v1._0.Controllers
                     return new ApiResult() { isSuccess = false, message = "Password is required!" };
                 }
 
+                BusinessAccount existingaccount = businessAccountService.GetBusinessAccount(model.email, model.phonenumber);
+
+                if (existingaccount != null && existingaccount.accountid > 0)
+                {
+                    return new ApiResult() { isSuccess = true, data = "Account already exists" };
+                }
+
                 int accountid = businessAccountService.AddBusinessAccount(model.name,model.email,model.phonenumber,model.password,DateTime.Now);
 
                 if (accountid != null && accountid > 0)

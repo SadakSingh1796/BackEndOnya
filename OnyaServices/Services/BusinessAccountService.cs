@@ -35,6 +35,19 @@ namespace OnyaServices
             return null;
         }
 
+        public BusinessAccount GetBusinessAccount(string email, string phonenumber)
+        {
+            try
+            {
+                string query = string.Format(@" select accountid,name,email,phonenumber,isactive from dbo.tbl_business_accounts where email = @email or phonenumber = @phonenumber");
+                return helper.Get<BusinessAccount>(query, new { email = email, phonenumber = phonenumber });
+            }
+            catch (Exception ex)
+            {
+            }
+            return null;
+        }
+
         public int AddBusinessAccount(string name, string email, string phonenumber, string password, DateTime accountcreated)
         {
             try
