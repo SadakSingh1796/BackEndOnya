@@ -50,6 +50,12 @@ namespace OnyaServices
 
             return 0;
         }
+
+        public int ToggleBusinessAccount(bool isVerified, int accountid)
+        {
+            string query = string.Format(@"update dbo.tbl_business_accounts set isactive = @isVerified where accountid = @accountid;");
+            return helper.ExecuteNonQuery(query.ToLower(), new { isVerified = isVerified, accountid = accountid });
+        }
     }
 
 }
