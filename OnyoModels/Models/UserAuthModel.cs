@@ -1,5 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Drawing;
+using System.Reflection;
 using System.Text;
 
 namespace OnyaModels
@@ -50,8 +52,14 @@ namespace OnyaModels
             public bool isuserverified { get; set; }
             public bool isdriververified { get; set; }
             public int devicetype { get; set; }
+            public int onyacreated { get; set; }
+            public int onyadelivered { get; set; }
+            public int senderonyacreated { get; set; }
+            public int senderonyapicked { get; set; }
+            public int driverpicked { get; set; }
+            public int driverdelivered { get; set; }
         }
-
+       
         public class SignupModel
         {
             public string name { get; set; }
@@ -61,7 +69,6 @@ namespace OnyaModels
             public string notificationtoken { get; set; }
             public int devicetype { get; set; }
         }
-
         public class SignupResponseModel
         {
             public int userid { get; set; }

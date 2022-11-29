@@ -3,6 +3,7 @@ using Microsoft.Extensions.Logging;
 using OnyaServices;
 using System;
 using System.Collections.Generic;
+using static OnyaModels.BusinessAccountModel;
 using static OnyaModels.CommonModel;
 using static OnyaModels.DocumentsModel;
 using static OnyaModels.UserAuthModel;
@@ -19,6 +20,7 @@ namespace Onyo_v1._0.Controllers
         private UserAuthService userAuthService = new UserAuthService();
         private DocumentsService documentsService = new DocumentsService();
         private UserOnyaService onyaService = new UserOnyaService();
+        private BusinessAccountService businessAccountService = new BusinessAccountService();
 
         public AdminController(ILogger<AdminController> logger)
         {
@@ -145,7 +147,7 @@ namespace Onyo_v1._0.Controllers
                     return new ApiResult() { isSuccess = false, message = "Status is required!" };
                 }
 
-                int onyaId = userAuthService.VerifyUserDocuments(model.documentid, model.isverified,model.comment);
+                int onyaId = userAuthService.VerifyUserDocuments(model.documentid, model.isverified, model.comment);
 
                 if (onyaId != null && onyaId > 0)
                 {
@@ -256,7 +258,83 @@ namespace Onyo_v1._0.Controllers
             }
         }
 
+        [HttpPost]
+        public ApiResult CreateBusinessAccount(BusinessAccountRequestModel model)
+        {
+            try
+            {
+                if (model.name == null || model.name == "")
+                {
+                    return new ApiResult() { isSuccess = false, message = "Name is required!" };
+                }
 
+                if (model.email == null || model.email == "")
+                {
+                    return new ApiResult() { isSuccess = false, message = "Email is required!" };
+                }
 
+                if (model.phonenumber == null || model.phonenumber == "")
+                {
+                    return new ApiResult() { isSuccess = false, message = "Phone number is required!" };
+                }
+
+                if (model.password == null || model.password == "")
+                {
+                    return new ApiResult() { isSuccess = false, message = "Password is required!" };
+                }
+
+                int accountid = businessAccountService.AddBusinessAccount(model.name,model.email,model.phonenumber,model.password,DateTime.Now);
+
+                if (accountid != null && accountid > 0)
+                {
+                    return new ApiResult() { isSuccess = true, data = "Account created succesfully" };
+                }
+                else
+                {
+                    return new ApiResult() { isSuccess = true, data = "Something went wrong. Please try again!" };
+                }
+            }
+            catch (Exception ex)
+            {
+                return new ApiResult() { isSuccess = false, message = ex.Message };
+            }
+        }
+
+        [HttpGet]
+        public ApiResult GetBusinessAccounts()
+        {
+            try
+            {
+                List<BusinessAccount> businessAccounts = businessAccountService.GetBusinessAccounts();
+
+                return new ApiResult() { isSuccess = true, data = businessAccounts };
+            }
+            catch (Exception ex)
+            {
+                return new ApiResult() { isSuccess = false, message = ex.Message };
+            }
+        }
+
+        [HttpPost]
+        public ApiResult ToggleBusinessAccountRequestModel(ToggleBusinessAccountRequestModel model)
+        {
+            try
+            {
+                int accountid = businessAccountService.ToggleBusinessAccount(model.isactive,model.accountid);
+
+                if (accountid != null && accountid > 0)
+                {
+                    return new ApiResult() { isSuccess = true, data = "Account updated succesfully" };
+                }
+                else
+                {
+                    return new ApiResult() { isSuccess = true, data = "Something went wrong. Please try again!" };
+                }
+            }
+            catch (Exception ex)
+            {
+                return new ApiResult() { isSuccess = false, message = ex.Message };
+            }
+        }
     }
 }
