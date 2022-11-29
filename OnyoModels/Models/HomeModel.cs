@@ -25,6 +25,7 @@ namespace OnyaModels
             public string name { get; set; }
             public string email { get; set; }
             public string phone { get; set; }
+            public string profilepic { get; set; }
             public bool isuserverified { get; set; }
             public bool isdriververified { get; set; }
         }

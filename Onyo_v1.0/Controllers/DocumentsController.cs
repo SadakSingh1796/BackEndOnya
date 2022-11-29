@@ -17,6 +17,7 @@ namespace Onyo_v1._0.Controllers
     {
         private readonly ILogger<DocumentsController> _logger;
         private DocumentsService documentsService = new DocumentsService();
+        private UserAuthService userAuthService = new UserAuthService();
 
         public DocumentsController(ILogger<DocumentsController> logger)
         {
@@ -52,6 +53,8 @@ namespace Onyo_v1._0.Controllers
                 {
                     return new ApiResult() { isSuccess = false, message = "Government Id is required!" };
                 }
+
+                int insertprofilepic = userAuthService.UpdateProfilePic(model.profile, model.userid);
 
                 int insertprofile = documentsService.InsertDocument(model.userid, "Profile", model.profile);
 

@@ -34,6 +34,8 @@ namespace OnyaModels
 
         public class UserDocument
         {
+            public string documentid { get; set; }
+            public string userid { get; set; }
             public string documentType { get; set; }
             public string documentValue { get; set; }
             public bool isVerified { get; set; }

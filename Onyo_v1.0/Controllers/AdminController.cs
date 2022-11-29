@@ -56,20 +56,7 @@ namespace Onyo_v1._0.Controllers
 
                 List<DocumentModel> documents = documentsService.GetUserDocuments(userId);
 
-                List<UserDocument> userDocuments = new List<UserDocument>();
-
-                foreach(DocumentModel document in documents)
-                {
-                    UserDocument doc = new UserDocument();
-                    doc.documentType = document.type;
-                    doc.documentValue = document.url;
-                    doc.isVerified = document.isverified;
-                    doc.comment = document.comment;
-
-                    userDocuments.Add(doc);
-                }
-
-                return new ApiResult() { isSuccess = true, data = userDocuments };
+                return new ApiResult() { isSuccess = true, data = documents };
             }
             catch (Exception ex)
             {

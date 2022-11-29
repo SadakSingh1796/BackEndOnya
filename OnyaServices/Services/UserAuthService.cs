@@ -86,7 +86,7 @@ namespace OnyaServices
         {
             try
             {
-                string query = string.Format(@"select name,email,phone,isuserverified,isdriververified from dbo.tbl_users where  userid = @userid");
+                string query = string.Format(@"select name,email,phone,profilepic,isuserverified,isdriververified from dbo.tbl_users where  userid = @userid");
                 return helper.Get<HomeUserModel>(query, new { userid = userid });
             }
             catch (Exception ex)
@@ -139,6 +139,12 @@ namespace OnyaServices
         {
             string query = string.Format(@"update dbo.tbl_users set isdriververified = @isverified where userid = @userid;");
             return helper.ExecuteNonQuery(query.ToLower(), new { isVerified = isVerified, userid = userid });
+        }
+
+        public int UpdateProfilePic(string profilepic, int userid)
+        {
+            string query = string.Format(@"update dbo.tbl_users set profilepic = @profilepic where userid = @userid;");
+            return helper.ExecuteNonQuery(query.ToLower(), new { profilepic = profilepic, userid = userid });
         }
 
         public int VerifyUserDocuments(int documentid, bool isverified, string comment)
