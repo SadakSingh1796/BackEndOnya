@@ -149,7 +149,7 @@ namespace OnyaServices
 
         public int VerifyUserDocuments(int documentid, bool isverified, string comment)
         {
-            string query = string.Format(@"update dbo.tbl_documents set isverified = @isverified and comment = @comment where documentid = @documentid;");
+            string query = string.Format(@"update dbo.tbl_documents set isverified = @isverified, comment = @comment where documentid = @documentid;");
             return helper.ExecuteNonQuery(query.ToLower(), new { isverified = isverified, documentid = documentid, comment = comment });
         }
     }

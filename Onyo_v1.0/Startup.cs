@@ -28,20 +28,7 @@ namespace Onyo_v1._0
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddCors(); // Make sure you call this previous to AddMvc
-            //SetupJWTServices(services);
             services.AddControllers();
-
-            //services.AddCors(option =>
-            //{
-            //    option.AddPolicy("ClientPermission", bulder =>
-            //    {
-            //        bulder.AllowAnyHeader()
-            //            .AllowAnyMethod()
-            //            .AllowAnyOrigin()
-            //            .SetIsOriginAllowed((host) => true)
-            //            .AllowCredentials();
-            //    });
-            //});
 
             services.AddControllersWithViews();
             services.AddControllers();
