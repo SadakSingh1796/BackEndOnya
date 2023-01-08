@@ -67,6 +67,36 @@ namespace OnyaServices
             return null;
         }
 
+        public AdminLoginResponseModel GetUserByEmailAndPassword(string email, string password)
+        {
+            try
+            {
+                string query = string.Format(@"select userid,name,email from dbo.tbl_users where email = @email and password = @password");
+                return helper.Get<AdminLoginResponseModel>(query, new { email = email, password = password });
+            }
+            catch (Exception ex)
+            {
+
+            }
+
+            return null;
+        }
+
+        public AdminLoginResponseModel GetBusinessByEmailAndPassword(string email, string password)
+        {
+            try
+            {
+                string query = string.Format(@"select accountid as userid,name,email from dbo.tbl_business_accounts where email = @email and password = @password");
+                return helper.Get<AdminLoginResponseModel>(query, new { email = email, password = password });
+            }
+            catch (Exception ex)
+            {
+
+            }
+
+            return null;
+        }
+
         public UserModel GetUserByEmailOrPhone(string email, string phone)
         {
             try

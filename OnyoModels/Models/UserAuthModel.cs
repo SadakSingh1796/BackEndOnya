@@ -8,6 +8,21 @@ namespace OnyaModels
 {
     public class UserAuthModel
     {
+
+        public class AdminLoginRequestModel
+        {
+            public string email { get; set; }
+            public string password { get; set; }
+        }
+
+        public class AdminLoginResponseModel
+        {
+            public int userId { get; set; }
+            public string name { get; set; }
+            public string email { get; set; }
+            public bool isBusinessAccount { get; set; }
+        }
+
         public class LoginRequestModel
         {
             public string name { get; set; }

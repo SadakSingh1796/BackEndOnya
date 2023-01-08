@@ -32,6 +32,46 @@ namespace Onyo_v1._0.Controllers
             return View();
         }
 
+        [HttpPost]
+        public ApiResult Login(AdminLoginRequestModel model)
+        {
+            try
+            {
+                if (model.email == null)
+                {
+                    return new ApiResult() { isSuccess = false, message = "Email is required!" };
+                }
+
+                if (model.password == null)
+                {
+                    return new ApiResult() { isSuccess = false, message = "Password is required!" };
+                }
+
+                var user = userAuthService.GetUserByEmailAndPassword(model.email, model.password);
+
+                if(user != null && user.userId != null && user.userId > 0)
+                {
+                    user.isBusinessAccount = false;
+                    return new ApiResult() { isSuccess = true, message = "Login Successfully!", data = user };
+                }
+
+                var businessAccount = userAuthService.GetBusinessByEmailAndPassword(model.email, model.password);
+
+                if (businessAccount != null && businessAccount.userId != null && businessAccount.userId > 0)
+                {
+                    businessAccount.isBusinessAccount = true;
+                    return new ApiResult() { isSuccess = true, message = "Login Successfully!", data = businessAccount };
+                }
+
+                return new ApiResult() { isSuccess = true, message = "User not found!" };
+
+            }
+            catch (Exception ex)
+            {
+                return new ApiResult() { isSuccess = false, message = ex.Message };
+            }
+        }
+
         [HttpGet]
         public ApiResult GetAllUsers()
         {
