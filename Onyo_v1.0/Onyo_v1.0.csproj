@@ -8,6 +8,7 @@
   <ItemGroup>
     <PackageReference Include="Dapper" Version="2.0.123" />
     <PackageReference Include="CorePush" Version="3.1.1" />
+    <PackageReference Include="Stripe.net" Version="41.4.0" />
   </ItemGroup>
 
   <ItemGroup>
@@ -16,5 +17,6 @@
 
   <ItemGroup>
     <None Remove="CorePush" />
+    <None Remove="Stripe.net" />
   </ItemGroup>
 </Project>

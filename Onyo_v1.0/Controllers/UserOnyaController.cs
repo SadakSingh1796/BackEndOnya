@@ -214,5 +214,26 @@ namespace Onyo_v1._0.Controllers
             }
         }
 
+        [HttpGet]
+        public ApiResult GetOnyaDetails(int onyaid)
+        {
+            try
+            {
+                if (onyaid == null || onyaid == 0)
+                {
+                    return new ApiResult() { isSuccess = false, message = "Onya Id is required!" };
+                }
+
+                OnyaModel onya = onyaService.GetOnyaDetails(onyaid);
+
+                onya.images = onyaService.GetOnyaImages(onyaid);
+
+                return new ApiResult() { isSuccess = true, data = onya };
+            }
+            catch (Exception ex)
+            {
+                return new ApiResult() { isSuccess = false, message = ex.Message };
+            }
+        }
     }
 }
