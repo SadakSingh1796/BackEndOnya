@@ -10,7 +10,7 @@ namespace OnyaModels
         public string Message { get; set; }
     }
 
-    public class NotificationModel
+    public class SendNotificationModel
     {
         [JsonProperty("deviceId")]
         public string DeviceId { get; set; }
@@ -35,13 +35,23 @@ namespace OnyaModels
         public string Priority { get; set; } = "high";
         [JsonProperty("data")]
         public DataPayload Data { get; set; }
-        [JsonProperty("notification")]
-        public DataPayload Notification { get; set; }
+        //[JsonProperty("notification")]
+        //public DataPayload Notification { get; set; }
     }
 
     public class FcmNotificationSetting
     {
         public string SenderId { get; set; }
         public string ServerKey { get; set; }
+    }
+
+    public class NotificationModel
+    {
+        public int onyaid { get; set; }
+        public int driverid { get; set; }
+        public int userid { get; set; }
+        public string title { get; set; }
+        public string body { get; set; }
+        public string type { get; set; }
     }
 }

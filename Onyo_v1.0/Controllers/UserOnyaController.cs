@@ -147,7 +147,7 @@ namespace Onyo_v1._0.Controllers
 
                 int requestid = onyaService.InsertOnyaRequests(model.onyaid, model.driverid);
 
-                HomeUserModel userModel = userAuthService.GetUserById(model.driverid);
+
 
                 if (requestid != null && requestid > 0)
                 {

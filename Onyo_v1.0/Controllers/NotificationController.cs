@@ -17,7 +17,7 @@ namespace Onyo_v1._0.Controllers
 
         [Route("send")]
         [HttpPost]
-        public async Task<IActionResult> SendNotification(NotificationModel notificationModel)
+        public async Task<IActionResult> SendNotification(SendNotificationModel notificationModel)
         {
             ResponseModel result = await _notificationService.SendNotification(notificationModel);
             return Ok(result);

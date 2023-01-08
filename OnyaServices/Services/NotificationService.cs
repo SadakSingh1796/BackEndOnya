@@ -1,6 +1,8 @@
 ﻿using CorePush.Google;
 using Microsoft.Extensions.Configuration;
 using OnyaModels;
+using Org.BouncyCastle.Asn1.X509;
+using Org.BouncyCastle.Utilities.Collections;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel;
@@ -11,6 +13,7 @@ using System.Reflection.Metadata;
 using System.Text;
 using System.Threading.Tasks;
 using System.Xml.Linq;
+using static OnyaModels.DocumentsModel;
 using static OnyaModels.GoogleNotification;
 using static OnyaModels.VehiclesModel;
 
@@ -18,18 +21,22 @@ namespace OnyaServices
 {
     public interface INotificationService
     {
-        Task<ResponseModel> SendNotification(NotificationModel notificationModel);
+        Task<ResponseModel> SendNotification(SendNotificationModel notificationModel);
     }
 
     public class NotificationService : INotificationService
     {
         private readonly FcmNotificationSetting _fcmNotificationSetting;
+        private QueryHelper helper;
+        public IConfiguration Configuration;
+
         public NotificationService()
         {
+            helper = new QueryHelper();
             _fcmNotificationSetting = new FcmNotificationSetting();
         }
 
-        public async Task<ResponseModel> SendNotification(NotificationModel notificationModel)
+        public async Task<ResponseModel> SendNotification(SendNotificationModel notificationModel)
         {
             ResponseModel response = new ResponseModel();
             try
@@ -57,7 +64,7 @@ namespace OnyaServices
 
                     GoogleNotification notification = new GoogleNotification();
                     notification.Data = dataPayload;
-                    notification.Notification = dataPayload;
+                    //notification.Notification = dataPayload;
 
                     var fcm = new FcmSender(settings, httpClient);
                     var fcmSendResponse = await fcm.SendAsync(deviceToken, notification);
@@ -89,6 +96,36 @@ namespace OnyaServices
                 response.Message = "Something went wrong";
                 return response;
             }
+        }
+
+        public int InsertNotification(int onyaid, int driverid, int userid, string title, string body, int type)
+        {
+            try
+            {
+                string query = string.Format(@" insert into dbo.tbl_notification(onyaid, driverid, userid, title, body, type)
+                values(@onyaid, @driverid, @userid, @title, @body, @type) RETURNING notificationid;");
+                return helper.InsertAndGetId(query, new { onyaid = onyaid, driverid = driverid, userid = userid, title = title, body = body, type = type });
+            }
+            catch (Exception ex)
+            {
+
+            }
+
+            return 0;
+        }
+
+        public List<NotificationModel> GetUserNotifications(int userid)
+        {
+            try
+            {
+                string query = string.Format(@" select onyaid, driverid, userid, title, body, type from dbo.tbl_notification where userid = @userid");
+                return helper.GetList<NotificationModel>(query, new { userid = userid });
+            }
+            catch (Exception ex)
+            {
+
+            }
+            return null;
         }
     }
 

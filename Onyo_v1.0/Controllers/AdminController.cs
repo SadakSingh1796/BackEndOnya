@@ -63,7 +63,7 @@ namespace Onyo_v1._0.Controllers
                     return new ApiResult() { isSuccess = true, message = "Login Successfully!", data = businessAccount };
                 }
 
-                return new ApiResult() { isSuccess = true, message = "User not found!" };
+                return new ApiResult() { isSuccess = false, message = "User not found!" };
 
             }
             catch (Exception ex)

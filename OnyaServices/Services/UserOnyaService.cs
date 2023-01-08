@@ -200,6 +200,25 @@ namespace OnyaServices
             string query = string.Format(@"delete from dbo.tbl_onya_request where driverid = @driverid and onyaid = @onyaid;");
             return helper.ExecuteNonQuery(query.ToLower(), new { driverid = driverid, onyaid = onyaid });
         }
+
+        public OnyaModel GetOnyaDetails(int onyaid)
+        {
+            try
+            {
+                string query = string.Format(@" select tbo.onyaid,tbo.userid,tbo.driverid,tbo.packagesize,tbo.packageweight,tbo.packagetype,tbo.comments,tbo.pickupdate,tbo.pickuplat,
+                                        tbo.pickuplong,tbo.pickupaddress,tbo.droplat,tbo.droplong,tbo.dropaddress,tbo.pickuppoint,
+										tbo.droppoint,tbo.pickupslot,tbo.dropslot,tbo.receivername,tbo.receiveremail,tbo.receiverphone,
+										tbo.amount,tbo.cancounter,tbo.status,tbo.driverstatus,tu.userid as ownerid,tu.name as ownername,tu.profilepic as ownerimage
+										from dbo.tbl_onyas tbo 
+										inner join dbo.tbl_users tu on tbo.userid = tu.userid
+										where tbo.onyaid = @onyaid");
+                return helper.Get<OnyaModel>(query, new { query = query, onyaid = onyaid });
+            }
+            catch (Exception ex)
+            {
+            }
+            return null;
+        }
     }
 
 }
