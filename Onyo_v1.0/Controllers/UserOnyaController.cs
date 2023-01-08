@@ -149,8 +149,6 @@ namespace Onyo_v1._0.Controllers
 
                 HomeUserModel userModel = userAuthService.GetUserById(model.driverid);
 
-                addssds
-
                 if (requestid != null && requestid > 0)
                 {
                     return new ApiResult() { isSuccess = true, data = "Request sent succesfully" };
