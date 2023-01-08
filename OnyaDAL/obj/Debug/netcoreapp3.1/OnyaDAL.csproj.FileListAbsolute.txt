@@ -36,22 +36,60 @@ C:/Users/hp/source/repos/Onyo_v1.0/OnyaDAL/bin/Debug/netcoreapp3.1/OnyaHelpers.p
 /Users/stupasportanalytics/Downloads/Onyo_v1.0 2/OnyaDAL/obj/Debug/netcoreapp3.1/OnyaDAL.csproj.CopyComplete
 /Users/stupasportanalytics/Downloads/Onyo_v1.0 2/OnyaDAL/obj/Debug/netcoreapp3.1/OnyaDAL.dll
 /Users/stupasportanalytics/Downloads/Onyo_v1.0 2/OnyaDAL/obj/Debug/netcoreapp3.1/OnyaDAL.pdb
-C:\AngularProjects\Practice Code\Onyo_v1.0 2\OnyaDAL\bin\Debug\netcoreapp3.1\OnyaHelpers.deps.json
-C:\AngularProjects\Practice Code\Onyo_v1.0 2\OnyaDAL\bin\Debug\netcoreapp3.1\OnyaHelpers.runtimeconfig.json
-C:\AngularProjects\Practice Code\Onyo_v1.0 2\OnyaDAL\bin\Debug\netcoreapp3.1\OnyaHelpers.runtimeconfig.dev.json
-C:\AngularProjects\Practice Code\Onyo_v1.0 2\OnyaDAL\bin\Debug\netcoreapp3.1\OnyaHelpers.exe
-C:\AngularProjects\Practice Code\Onyo_v1.0 2\OnyaDAL\bin\Debug\netcoreapp3.1\OnyaDAL.deps.json
-C:\AngularProjects\Practice Code\Onyo_v1.0 2\OnyaDAL\bin\Debug\netcoreapp3.1\OnyaDAL.dll
-C:\AngularProjects\Practice Code\Onyo_v1.0 2\OnyaDAL\bin\Debug\netcoreapp3.1\OnyaDAL.pdb
-C:\AngularProjects\Practice Code\Onyo_v1.0 2\OnyaDAL\bin\Debug\netcoreapp3.1\OnyaHelpers.dll
-C:\AngularProjects\Practice Code\Onyo_v1.0 2\OnyaDAL\bin\Debug\netcoreapp3.1\OnyaModels.dll
-C:\AngularProjects\Practice Code\Onyo_v1.0 2\OnyaDAL\bin\Debug\netcoreapp3.1\OnyaHelpers.pdb
-C:\AngularProjects\Practice Code\Onyo_v1.0 2\OnyaDAL\bin\Debug\netcoreapp3.1\OnyaModels.pdb
-C:\AngularProjects\Practice Code\Onyo_v1.0 2\OnyaDAL\obj\Debug\netcoreapp3.1\OnyaDAL.csproj.AssemblyReference.cache
-C:\AngularProjects\Practice Code\Onyo_v1.0 2\OnyaDAL\obj\Debug\netcoreapp3.1\OnyaDAL.GeneratedMSBuildEditorConfig.editorconfig
-C:\AngularProjects\Practice Code\Onyo_v1.0 2\OnyaDAL\obj\Debug\netcoreapp3.1\OnyaDAL.AssemblyInfoInputs.cache
-C:\AngularProjects\Practice Code\Onyo_v1.0 2\OnyaDAL\obj\Debug\netcoreapp3.1\OnyaDAL.AssemblyInfo.cs
-C:\AngularProjects\Practice Code\Onyo_v1.0 2\OnyaDAL\obj\Debug\netcoreapp3.1\OnyaDAL.csproj.CoreCompileInputs.cache
-C:\AngularProjects\Practice Code\Onyo_v1.0 2\OnyaDAL\obj\Debug\netcoreapp3.1\OnyaDAL.csproj.CopyComplete
-C:\AngularProjects\Practice Code\Onyo_v1.0 2\OnyaDAL\obj\Debug\netcoreapp3.1\OnyaDAL.dll
-C:\AngularProjects\Practice Code\Onyo_v1.0 2\OnyaDAL\obj\Debug\netcoreapp3.1\OnyaDAL.pdb
+C:/AngularProjects/Practice Code/Onyo_v1.0 2/OnyaDAL/bin/Debug/netcoreapp3.1/OnyaHelpers.deps.json
+C:/AngularProjects/Practice Code/Onyo_v1.0 2/OnyaDAL/bin/Debug/netcoreapp3.1/OnyaHelpers.runtimeconfig.json
+C:/AngularProjects/Practice Code/Onyo_v1.0 2/OnyaDAL/bin/Debug/netcoreapp3.1/OnyaHelpers.runtimeconfig.dev.json
+C:/AngularProjects/Practice Code/Onyo_v1.0 2/OnyaDAL/bin/Debug/netcoreapp3.1/OnyaHelpers.exe
+C:/AngularProjects/Practice Code/Onyo_v1.0 2/OnyaDAL/bin/Debug/netcoreapp3.1/OnyaDAL.deps.json
+C:/AngularProjects/Practice Code/Onyo_v1.0 2/OnyaDAL/bin/Debug/netcoreapp3.1/OnyaDAL.dll
+C:/AngularProjects/Practice Code/Onyo_v1.0 2/OnyaDAL/bin/Debug/netcoreapp3.1/OnyaDAL.pdb
+C:/AngularProjects/Practice Code/Onyo_v1.0 2/OnyaDAL/bin/Debug/netcoreapp3.1/OnyaHelpers.dll
+C:/AngularProjects/Practice Code/Onyo_v1.0 2/OnyaDAL/bin/Debug/netcoreapp3.1/OnyaModels.dll
+C:/AngularProjects/Practice Code/Onyo_v1.0 2/OnyaDAL/bin/Debug/netcoreapp3.1/OnyaHelpers.pdb
+C:/AngularProjects/Practice Code/Onyo_v1.0 2/OnyaDAL/bin/Debug/netcoreapp3.1/OnyaModels.pdb
+C:/AngularProjects/Practice Code/Onyo_v1.0 2/OnyaDAL/obj/Debug/netcoreapp3.1/OnyaDAL.csproj.AssemblyReference.cache
+C:/AngularProjects/Practice Code/Onyo_v1.0 2/OnyaDAL/obj/Debug/netcoreapp3.1/OnyaDAL.GeneratedMSBuildEditorConfig.editorconfig
+C:/AngularProjects/Practice Code/Onyo_v1.0 2/OnyaDAL/obj/Debug/netcoreapp3.1/OnyaDAL.AssemblyInfoInputs.cache
+C:/AngularProjects/Practice Code/Onyo_v1.0 2/OnyaDAL/obj/Debug/netcoreapp3.1/OnyaDAL.AssemblyInfo.cs
+C:/AngularProjects/Practice Code/Onyo_v1.0 2/OnyaDAL/obj/Debug/netcoreapp3.1/OnyaDAL.csproj.CoreCompileInputs.cache
+C:/AngularProjects/Practice Code/Onyo_v1.0 2/OnyaDAL/obj/Debug/netcoreapp3.1/OnyaDAL.csproj.CopyComplete
+C:/AngularProjects/Practice Code/Onyo_v1.0 2/OnyaDAL/obj/Debug/netcoreapp3.1/OnyaDAL.dll
+C:/AngularProjects/Practice Code/Onyo_v1.0 2/OnyaDAL/obj/Debug/netcoreapp3.1/OnyaDAL.pdb
+/Users/stupasportanalytics/Documents/Karan Workspace/Projects/Backend/OnyaGithub/OnyaDAL/bin/Debug/netcoreapp3.1/OnyaHelpers.deps.json
+/Users/stupasportanalytics/Documents/Karan Workspace/Projects/Backend/OnyaGithub/OnyaDAL/bin/Debug/netcoreapp3.1/OnyaHelpers.runtimeconfig.json
+/Users/stupasportanalytics/Documents/Karan Workspace/Projects/Backend/OnyaGithub/OnyaDAL/bin/Debug/netcoreapp3.1/OnyaHelpers.runtimeconfig.dev.json
+/Users/stupasportanalytics/Documents/Karan Workspace/Projects/Backend/OnyaGithub/OnyaDAL/bin/Debug/netcoreapp3.1/OnyaHelpers
+/Users/stupasportanalytics/Documents/Karan Workspace/Projects/Backend/OnyaGithub/OnyaDAL/bin/Debug/netcoreapp3.1/OnyaDAL.deps.json
+/Users/stupasportanalytics/Documents/Karan Workspace/Projects/Backend/OnyaGithub/OnyaDAL/bin/Debug/netcoreapp3.1/OnyaDAL.dll
+/Users/stupasportanalytics/Documents/Karan Workspace/Projects/Backend/OnyaGithub/OnyaDAL/bin/Debug/netcoreapp3.1/OnyaDAL.pdb
+/Users/stupasportanalytics/Documents/Karan Workspace/Projects/Backend/OnyaGithub/OnyaDAL/bin/Debug/netcoreapp3.1/OnyaHelpers.dll
+/Users/stupasportanalytics/Documents/Karan Workspace/Projects/Backend/OnyaGithub/OnyaDAL/bin/Debug/netcoreapp3.1/OnyaModels.dll
+/Users/stupasportanalytics/Documents/Karan Workspace/Projects/Backend/OnyaGithub/OnyaDAL/bin/Debug/netcoreapp3.1/OnyaHelpers.pdb
+/Users/stupasportanalytics/Documents/Karan Workspace/Projects/Backend/OnyaGithub/OnyaDAL/bin/Debug/netcoreapp3.1/OnyaModels.pdb
+/Users/stupasportanalytics/Documents/Karan Workspace/Projects/Backend/OnyaGithub/OnyaDAL/obj/Debug/netcoreapp3.1/OnyaDAL.csproj.AssemblyReference.cache
+/Users/stupasportanalytics/Documents/Karan Workspace/Projects/Backend/OnyaGithub/OnyaDAL/obj/Debug/netcoreapp3.1/OnyaDAL.GeneratedMSBuildEditorConfig.editorconfig
+/Users/stupasportanalytics/Documents/Karan Workspace/Projects/Backend/OnyaGithub/OnyaDAL/obj/Debug/netcoreapp3.1/OnyaDAL.AssemblyInfoInputs.cache
+/Users/stupasportanalytics/Documents/Karan Workspace/Projects/Backend/OnyaGithub/OnyaDAL/obj/Debug/netcoreapp3.1/OnyaDAL.AssemblyInfo.cs
+/Users/stupasportanalytics/Documents/Karan Workspace/Projects/Backend/OnyaGithub/OnyaDAL/obj/Debug/netcoreapp3.1/OnyaDAL.csproj.CoreCompileInputs.cache
+/Users/stupasportanalytics/Documents/Karan Workspace/Projects/Backend/OnyaGithub/OnyaDAL/obj/Debug/netcoreapp3.1/OnyaDAL.csproj.CopyComplete
+/Users/stupasportanalytics/Documents/Karan Workspace/Projects/Backend/OnyaGithub/OnyaDAL/obj/Debug/netcoreapp3.1/OnyaDAL.dll
+/Users/stupasportanalytics/Documents/Karan Workspace/Projects/Backend/OnyaGithub/OnyaDAL/obj/Debug/netcoreapp3.1/OnyaDAL.pdb
+/Users/stupasportanalytics/Documents/Karan Workspace/Projects/Backend/Onya/OnyaDAL/bin/Debug/netcoreapp3.1/OnyaHelpers.deps.json
+/Users/stupasportanalytics/Documents/Karan Workspace/Projects/Backend/Onya/OnyaDAL/bin/Debug/netcoreapp3.1/OnyaHelpers.runtimeconfig.json
+/Users/stupasportanalytics/Documents/Karan Workspace/Projects/Backend/Onya/OnyaDAL/bin/Debug/netcoreapp3.1/OnyaHelpers.runtimeconfig.dev.json
+/Users/stupasportanalytics/Documents/Karan Workspace/Projects/Backend/Onya/OnyaDAL/bin/Debug/netcoreapp3.1/OnyaHelpers
+/Users/stupasportanalytics/Documents/Karan Workspace/Projects/Backend/Onya/OnyaDAL/bin/Debug/netcoreapp3.1/OnyaDAL.deps.json
+/Users/stupasportanalytics/Documents/Karan Workspace/Projects/Backend/Onya/OnyaDAL/bin/Debug/netcoreapp3.1/OnyaDAL.dll
+/Users/stupasportanalytics/Documents/Karan Workspace/Projects/Backend/Onya/OnyaDAL/bin/Debug/netcoreapp3.1/OnyaDAL.pdb
+/Users/stupasportanalytics/Documents/Karan Workspace/Projects/Backend/Onya/OnyaDAL/bin/Debug/netcoreapp3.1/OnyaHelpers.dll
+/Users/stupasportanalytics/Documents/Karan Workspace/Projects/Backend/Onya/OnyaDAL/bin/Debug/netcoreapp3.1/OnyaModels.dll
+/Users/stupasportanalytics/Documents/Karan Workspace/Projects/Backend/Onya/OnyaDAL/bin/Debug/netcoreapp3.1/OnyaHelpers.pdb
+/Users/stupasportanalytics/Documents/Karan Workspace/Projects/Backend/Onya/OnyaDAL/bin/Debug/netcoreapp3.1/OnyaModels.pdb
+/Users/stupasportanalytics/Documents/Karan Workspace/Projects/Backend/Onya/OnyaDAL/obj/Debug/netcoreapp3.1/OnyaDAL.csproj.AssemblyReference.cache
+/Users/stupasportanalytics/Documents/Karan Workspace/Projects/Backend/Onya/OnyaDAL/obj/Debug/netcoreapp3.1/OnyaDAL.GeneratedMSBuildEditorConfig.editorconfig
+/Users/stupasportanalytics/Documents/Karan Workspace/Projects/Backend/Onya/OnyaDAL/obj/Debug/netcoreapp3.1/OnyaDAL.AssemblyInfoInputs.cache
+/Users/stupasportanalytics/Documents/Karan Workspace/Projects/Backend/Onya/OnyaDAL/obj/Debug/netcoreapp3.1/OnyaDAL.AssemblyInfo.cs
+/Users/stupasportanalytics/Documents/Karan Workspace/Projects/Backend/Onya/OnyaDAL/obj/Debug/netcoreapp3.1/OnyaDAL.csproj.CoreCompileInputs.cache
+/Users/stupasportanalytics/Documents/Karan Workspace/Projects/Backend/Onya/OnyaDAL/obj/Debug/netcoreapp3.1/OnyaDAL.csproj.CopyComplete
+/Users/stupasportanalytics/Documents/Karan Workspace/Projects/Backend/Onya/OnyaDAL/obj/Debug/netcoreapp3.1/OnyaDAL.dll
+/Users/stupasportanalytics/Documents/Karan Workspace/Projects/Backend/Onya/OnyaDAL/obj/Debug/netcoreapp3.1/OnyaDAL.pdb

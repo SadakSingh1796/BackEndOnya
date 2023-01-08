@@ -18,13 +18,33 @@ C:/Users/hp/source/repos/Onyo_v1.0/OnyoModels/obj/Debug/netcoreapp3.1/OnyaModels
 /Users/stupasportanalytics/Downloads/Onyo_v1.0 2/OnyoModels/obj/Debug/netcoreapp3.1/OnyaModels.csproj.CoreCompileInputs.cache
 /Users/stupasportanalytics/Downloads/Onyo_v1.0 2/OnyoModels/obj/Debug/netcoreapp3.1/OnyaModels.dll
 /Users/stupasportanalytics/Downloads/Onyo_v1.0 2/OnyoModels/obj/Debug/netcoreapp3.1/OnyaModels.pdb
-C:\AngularProjects\Practice Code\Onyo_v1.0 2\OnyoModels\bin\Debug\netcoreapp3.1\OnyaModels.deps.json
-C:\AngularProjects\Practice Code\Onyo_v1.0 2\OnyoModels\bin\Debug\netcoreapp3.1\OnyaModels.dll
-C:\AngularProjects\Practice Code\Onyo_v1.0 2\OnyoModels\bin\Debug\netcoreapp3.1\OnyaModels.pdb
-C:\AngularProjects\Practice Code\Onyo_v1.0 2\OnyoModels\obj\Debug\netcoreapp3.1\OnyaModels.csproj.AssemblyReference.cache
-C:\AngularProjects\Practice Code\Onyo_v1.0 2\OnyoModels\obj\Debug\netcoreapp3.1\OnyaModels.GeneratedMSBuildEditorConfig.editorconfig
-C:\AngularProjects\Practice Code\Onyo_v1.0 2\OnyoModels\obj\Debug\netcoreapp3.1\OnyaModels.AssemblyInfoInputs.cache
-C:\AngularProjects\Practice Code\Onyo_v1.0 2\OnyoModels\obj\Debug\netcoreapp3.1\OnyaModels.AssemblyInfo.cs
-C:\AngularProjects\Practice Code\Onyo_v1.0 2\OnyoModels\obj\Debug\netcoreapp3.1\OnyaModels.csproj.CoreCompileInputs.cache
-C:\AngularProjects\Practice Code\Onyo_v1.0 2\OnyoModels\obj\Debug\netcoreapp3.1\OnyaModels.dll
-C:\AngularProjects\Practice Code\Onyo_v1.0 2\OnyoModels\obj\Debug\netcoreapp3.1\OnyaModels.pdb
+C:/AngularProjects/Practice Code/Onyo_v1.0 2/OnyoModels/bin/Debug/netcoreapp3.1/OnyaModels.deps.json
+C:/AngularProjects/Practice Code/Onyo_v1.0 2/OnyoModels/bin/Debug/netcoreapp3.1/OnyaModels.dll
+C:/AngularProjects/Practice Code/Onyo_v1.0 2/OnyoModels/bin/Debug/netcoreapp3.1/OnyaModels.pdb
+C:/AngularProjects/Practice Code/Onyo_v1.0 2/OnyoModels/obj/Debug/netcoreapp3.1/OnyaModels.csproj.AssemblyReference.cache
+C:/AngularProjects/Practice Code/Onyo_v1.0 2/OnyoModels/obj/Debug/netcoreapp3.1/OnyaModels.GeneratedMSBuildEditorConfig.editorconfig
+C:/AngularProjects/Practice Code/Onyo_v1.0 2/OnyoModels/obj/Debug/netcoreapp3.1/OnyaModels.AssemblyInfoInputs.cache
+C:/AngularProjects/Practice Code/Onyo_v1.0 2/OnyoModels/obj/Debug/netcoreapp3.1/OnyaModels.AssemblyInfo.cs
+C:/AngularProjects/Practice Code/Onyo_v1.0 2/OnyoModels/obj/Debug/netcoreapp3.1/OnyaModels.csproj.CoreCompileInputs.cache
+C:/AngularProjects/Practice Code/Onyo_v1.0 2/OnyoModels/obj/Debug/netcoreapp3.1/OnyaModels.dll
+C:/AngularProjects/Practice Code/Onyo_v1.0 2/OnyoModels/obj/Debug/netcoreapp3.1/OnyaModels.pdb
+/Users/stupasportanalytics/Documents/Karan Workspace/Projects/Backend/OnyaGithub/OnyoModels/bin/Debug/netcoreapp3.1/OnyaModels.deps.json
+/Users/stupasportanalytics/Documents/Karan Workspace/Projects/Backend/OnyaGithub/OnyoModels/bin/Debug/netcoreapp3.1/OnyaModels.dll
+/Users/stupasportanalytics/Documents/Karan Workspace/Projects/Backend/OnyaGithub/OnyoModels/bin/Debug/netcoreapp3.1/OnyaModels.pdb
+/Users/stupasportanalytics/Documents/Karan Workspace/Projects/Backend/OnyaGithub/OnyoModels/obj/Debug/netcoreapp3.1/OnyaModels.csproj.AssemblyReference.cache
+/Users/stupasportanalytics/Documents/Karan Workspace/Projects/Backend/OnyaGithub/OnyoModels/obj/Debug/netcoreapp3.1/OnyaModels.GeneratedMSBuildEditorConfig.editorconfig
+/Users/stupasportanalytics/Documents/Karan Workspace/Projects/Backend/OnyaGithub/OnyoModels/obj/Debug/netcoreapp3.1/OnyaModels.AssemblyInfoInputs.cache
+/Users/stupasportanalytics/Documents/Karan Workspace/Projects/Backend/OnyaGithub/OnyoModels/obj/Debug/netcoreapp3.1/OnyaModels.AssemblyInfo.cs
+/Users/stupasportanalytics/Documents/Karan Workspace/Projects/Backend/OnyaGithub/OnyoModels/obj/Debug/netcoreapp3.1/OnyaModels.csproj.CoreCompileInputs.cache
+/Users/stupasportanalytics/Documents/Karan Workspace/Projects/Backend/OnyaGithub/OnyoModels/obj/Debug/netcoreapp3.1/OnyaModels.dll
+/Users/stupasportanalytics/Documents/Karan Workspace/Projects/Backend/OnyaGithub/OnyoModels/obj/Debug/netcoreapp3.1/OnyaModels.pdb
+/Users/stupasportanalytics/Documents/Karan Workspace/Projects/Backend/Onya/OnyoModels/bin/Debug/netcoreapp3.1/OnyaModels.deps.json
+/Users/stupasportanalytics/Documents/Karan Workspace/Projects/Backend/Onya/OnyoModels/bin/Debug/netcoreapp3.1/OnyaModels.dll
+/Users/stupasportanalytics/Documents/Karan Workspace/Projects/Backend/Onya/OnyoModels/bin/Debug/netcoreapp3.1/OnyaModels.pdb
+/Users/stupasportanalytics/Documents/Karan Workspace/Projects/Backend/Onya/OnyoModels/obj/Debug/netcoreapp3.1/OnyaModels.csproj.AssemblyReference.cache
+/Users/stupasportanalytics/Documents/Karan Workspace/Projects/Backend/Onya/OnyoModels/obj/Debug/netcoreapp3.1/OnyaModels.GeneratedMSBuildEditorConfig.editorconfig
+/Users/stupasportanalytics/Documents/Karan Workspace/Projects/Backend/Onya/OnyoModels/obj/Debug/netcoreapp3.1/OnyaModels.AssemblyInfoInputs.cache
+/Users/stupasportanalytics/Documents/Karan Workspace/Projects/Backend/Onya/OnyoModels/obj/Debug/netcoreapp3.1/OnyaModels.AssemblyInfo.cs
+/Users/stupasportanalytics/Documents/Karan Workspace/Projects/Backend/Onya/OnyoModels/obj/Debug/netcoreapp3.1/OnyaModels.csproj.CoreCompileInputs.cache
+/Users/stupasportanalytics/Documents/Karan Workspace/Projects/Backend/Onya/OnyoModels/obj/Debug/netcoreapp3.1/OnyaModels.dll
+/Users/stupasportanalytics/Documents/Karan Workspace/Projects/Backend/Onya/OnyoModels/obj/Debug/netcoreapp3.1/OnyaModels.pdb

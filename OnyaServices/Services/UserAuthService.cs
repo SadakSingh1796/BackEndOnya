@@ -86,7 +86,7 @@ namespace OnyaServices
         {
             try
             {
-                string query = string.Format(@"select name,email,phone,profilepic,isuserverified,isdriververified from dbo.tbl_users where  userid = @userid");
+                string query = string.Format(@"select name,email,phone,profilepic,isuserverified,isdriververified,notificationtoken from dbo.tbl_users where  userid = @userid");
                 return helper.Get<HomeUserModel>(query, new { userid = userid });
             }
             catch (Exception ex)
@@ -127,6 +127,12 @@ namespace OnyaServices
             }
 
             return 0;
+        }
+
+        public int UpdateNotificationToken(string notificationtoken, int devicetype, int userid)
+        {
+            string query = string.Format(@"update dbo.tbl_users set notificationtoken = @notificationtoken, devicetype = @devicetype  where userid = @userid;");
+            return helper.ExecuteNonQuery(query.ToLower(), new { notificationtoken = notificationtoken, devicetype = devicetype, userid = userid });
         }
 
         public int UpdateUserStatus(bool isVerified, int userid)

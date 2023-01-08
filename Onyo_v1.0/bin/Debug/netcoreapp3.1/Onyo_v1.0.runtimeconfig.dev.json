@@ -1,8 +1,8 @@
 {
   "runtimeOptions": {
     "additionalProbingPaths": [
-      "C:\\Users\\LENOVO STUPA\\.dotnet\\store\\|arch|\\|tfm|",
-      "C:\\Users\\LENOVO STUPA\\.nuget\\packages"
+      "/Users/stupasportanalytics/.dotnet/store/|arch|/|tfm|",
+      "/Users/stupasportanalytics/.nuget/packages"
     ]
   }
 }

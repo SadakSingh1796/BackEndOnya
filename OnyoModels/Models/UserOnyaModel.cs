@@ -64,6 +64,7 @@ namespace OnyaModels
             public int ownerid { get; set; }
             public string ownername { get; set; }
             public string ownerimage { get; set; }
+            public List<String> images { get; set; }
         }
 
         public class OnyaRequestModel

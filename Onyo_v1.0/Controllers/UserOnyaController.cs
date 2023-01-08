@@ -5,6 +5,7 @@ using System;
 using System.Collections.Generic;
 using System.Reflection.PortableExecutable;
 using static OnyaModels.CommonModel;
+using static OnyaModels.HomeModel;
 using static OnyaModels.UserOnyaModel;
 
 namespace Onyo_v1._0.Controllers
@@ -15,6 +16,7 @@ namespace Onyo_v1._0.Controllers
     {
         private readonly ILogger<OnyaController> _logger;
         private UserOnyaService onyaService = new UserOnyaService();
+        private UserAuthService userAuthService = new UserAuthService();
 
         public OnyaController(ILogger<OnyaController> logger)
         {
@@ -94,6 +96,12 @@ namespace Onyo_v1._0.Controllers
 
                 List<OnyaModel> onyas = onyaService.AllOtherOnyas(userId);
 
+                foreach(OnyaModel onya in onyas)
+                {
+                    List<String> onyaImages = onyaService.GetOnyaImages(onya.onyaid);
+                    onya.images = onyaImages;
+                }
+
                 return new ApiResult() { isSuccess = true, data = onyas };
             }
             catch (Exception ex)
@@ -138,6 +146,10 @@ namespace Onyo_v1._0.Controllers
                 }
 
                 int requestid = onyaService.InsertOnyaRequests(model.onyaid, model.driverid);
+
+                HomeUserModel userModel = userAuthService.GetUserById(model.driverid);
+
+                addssds
 
                 if (requestid != null && requestid > 0)
                 {

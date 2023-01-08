@@ -109,59 +109,177 @@ C:/Users/hp/source/repos/Onyo_v1.0/Onyo_v1.0/bin/Debug/netcoreapp3.1/OnyaHelpers
 /Users/stupasportanalytics/Downloads/Onyo_v1.0 2/Onyo_v1.0/obj/Debug/netcoreapp3.1/Onyo_v1.0.dll
 /Users/stupasportanalytics/Downloads/Onyo_v1.0 2/Onyo_v1.0/obj/Debug/netcoreapp3.1/Onyo_v1.0.pdb
 /Users/stupasportanalytics/Downloads/Onyo_v1.0 2/Onyo_v1.0/obj/Debug/netcoreapp3.1/Onyo_v1.0.genruntimeconfig.cache
-C:\AngularProjects\Practice Code\Onyo_v1.0 2\Onyo_v1.0\bin\Debug\netcoreapp3.1\OnyaHelpers.deps.json
-C:\AngularProjects\Practice Code\Onyo_v1.0 2\Onyo_v1.0\bin\Debug\netcoreapp3.1\OnyaHelpers.runtimeconfig.json
-C:\AngularProjects\Practice Code\Onyo_v1.0 2\Onyo_v1.0\bin\Debug\netcoreapp3.1\OnyaHelpers.runtimeconfig.dev.json
-C:\AngularProjects\Practice Code\Onyo_v1.0 2\Onyo_v1.0\bin\Debug\netcoreapp3.1\OnyaHelpers.exe
-C:\AngularProjects\Practice Code\Onyo_v1.0 2\Onyo_v1.0\bin\Debug\netcoreapp3.1\appsettings.Development.json
-C:\AngularProjects\Practice Code\Onyo_v1.0 2\Onyo_v1.0\bin\Debug\netcoreapp3.1\appsettings.json
-C:\AngularProjects\Practice Code\Onyo_v1.0 2\Onyo_v1.0\bin\Debug\netcoreapp3.1\Onyo_v1.0.exe
-C:\AngularProjects\Practice Code\Onyo_v1.0 2\Onyo_v1.0\bin\Debug\netcoreapp3.1\Onyo_v1.0.deps.json
-C:\AngularProjects\Practice Code\Onyo_v1.0 2\Onyo_v1.0\bin\Debug\netcoreapp3.1\Onyo_v1.0.runtimeconfig.json
-C:\AngularProjects\Practice Code\Onyo_v1.0 2\Onyo_v1.0\bin\Debug\netcoreapp3.1\Onyo_v1.0.runtimeconfig.dev.json
-C:\AngularProjects\Practice Code\Onyo_v1.0 2\Onyo_v1.0\bin\Debug\netcoreapp3.1\Onyo_v1.0.dll
-C:\AngularProjects\Practice Code\Onyo_v1.0 2\Onyo_v1.0\bin\Debug\netcoreapp3.1\Onyo_v1.0.pdb
-C:\AngularProjects\Practice Code\Onyo_v1.0 2\Onyo_v1.0\bin\Debug\netcoreapp3.1\Onyo_v1.0.Views.dll
-C:\AngularProjects\Practice Code\Onyo_v1.0 2\Onyo_v1.0\bin\Debug\netcoreapp3.1\Onyo_v1.0.Views.pdb
-C:\AngularProjects\Practice Code\Onyo_v1.0 2\Onyo_v1.0\bin\Debug\netcoreapp3.1\Dapper.dll
-C:\AngularProjects\Practice Code\Onyo_v1.0 2\Onyo_v1.0\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.Abstractions.dll
-C:\AngularProjects\Practice Code\Onyo_v1.0 2\Onyo_v1.0\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Primitives.dll
-C:\AngularProjects\Practice Code\Onyo_v1.0 2\Onyo_v1.0\bin\Debug\netcoreapp3.1\Npgsql.dll
-C:\AngularProjects\Practice Code\Onyo_v1.0 2\Onyo_v1.0\bin\Debug\netcoreapp3.1\System.Diagnostics.DiagnosticSource.dll
-C:\AngularProjects\Practice Code\Onyo_v1.0 2\Onyo_v1.0\bin\Debug\netcoreapp3.1\System.Runtime.CompilerServices.Unsafe.dll
-C:\AngularProjects\Practice Code\Onyo_v1.0 2\Onyo_v1.0\bin\Debug\netcoreapp3.1\OnyaDAL.dll
-C:\AngularProjects\Practice Code\Onyo_v1.0 2\Onyo_v1.0\bin\Debug\netcoreapp3.1\OnyaHelpers.dll
-C:\AngularProjects\Practice Code\Onyo_v1.0 2\Onyo_v1.0\bin\Debug\netcoreapp3.1\OnyaModels.dll
-C:\AngularProjects\Practice Code\Onyo_v1.0 2\Onyo_v1.0\bin\Debug\netcoreapp3.1\OnyaServices.dll
-C:\AngularProjects\Practice Code\Onyo_v1.0 2\Onyo_v1.0\bin\Debug\netcoreapp3.1\OnyaServices.pdb
-C:\AngularProjects\Practice Code\Onyo_v1.0 2\Onyo_v1.0\bin\Debug\netcoreapp3.1\OnyaDAL.pdb
-C:\AngularProjects\Practice Code\Onyo_v1.0 2\Onyo_v1.0\bin\Debug\netcoreapp3.1\OnyaHelpers.pdb
-C:\AngularProjects\Practice Code\Onyo_v1.0 2\Onyo_v1.0\bin\Debug\netcoreapp3.1\OnyaModels.pdb
-C:\AngularProjects\Practice Code\Onyo_v1.0 2\Onyo_v1.0\obj\Debug\netcoreapp3.1\Onyo_v1.0.csproj.AssemblyReference.cache
-C:\AngularProjects\Practice Code\Onyo_v1.0 2\Onyo_v1.0\obj\Debug\netcoreapp3.1\Onyo_v1.0.GeneratedMSBuildEditorConfig.editorconfig
-C:\AngularProjects\Practice Code\Onyo_v1.0 2\Onyo_v1.0\obj\Debug\netcoreapp3.1\Onyo_v1.0.AssemblyInfoInputs.cache
-C:\AngularProjects\Practice Code\Onyo_v1.0 2\Onyo_v1.0\obj\Debug\netcoreapp3.1\Onyo_v1.0.AssemblyInfo.cs
-C:\AngularProjects\Practice Code\Onyo_v1.0 2\Onyo_v1.0\obj\Debug\netcoreapp3.1\Onyo_v1.0.csproj.CoreCompileInputs.cache
-C:\AngularProjects\Practice Code\Onyo_v1.0 2\Onyo_v1.0\obj\Debug\netcoreapp3.1\Onyo_v1.0.MvcApplicationPartsAssemblyInfo.cache
-C:\AngularProjects\Practice Code\Onyo_v1.0 2\Onyo_v1.0\obj\Debug\netcoreapp3.1\Onyo_v1.0.RazorAssemblyInfo.cache
-C:\AngularProjects\Practice Code\Onyo_v1.0 2\Onyo_v1.0\obj\Debug\netcoreapp3.1\Onyo_v1.0.RazorAssemblyInfo.cs
-C:\AngularProjects\Practice Code\Onyo_v1.0 2\Onyo_v1.0\obj\Debug\netcoreapp3.1\staticwebassets\Onyo_v1.0.StaticWebAssets.Manifest.cache
-C:\AngularProjects\Practice Code\Onyo_v1.0 2\Onyo_v1.0\obj\Debug\netcoreapp3.1\staticwebassets\Onyo_v1.0.StaticWebAssets.xml
-C:\AngularProjects\Practice Code\Onyo_v1.0 2\Onyo_v1.0\obj\Debug\netcoreapp3.1\scopedcss\bundle\Onyo_v1.0.styles.css
-C:\AngularProjects\Practice Code\Onyo_v1.0 2\Onyo_v1.0\obj\Debug\netcoreapp3.1\Onyo_v1.0.TagHelpers.input.cache
-C:\AngularProjects\Practice Code\Onyo_v1.0 2\Onyo_v1.0\obj\Debug\netcoreapp3.1\Onyo_v1.0.TagHelpers.output.cache
-C:\AngularProjects\Practice Code\Onyo_v1.0 2\Onyo_v1.0\obj\Debug\netcoreapp3.1\Onyo_v1.0.RazorCoreGenerate.cache
-C:\AngularProjects\Practice Code\Onyo_v1.0 2\Onyo_v1.0\obj\Debug\netcoreapp3.1\Razor\Views\Home\Index.cshtml.g.cs
-C:\AngularProjects\Practice Code\Onyo_v1.0 2\Onyo_v1.0\obj\Debug\netcoreapp3.1\Razor\Views\Home\Privacy.cshtml.g.cs
-C:\AngularProjects\Practice Code\Onyo_v1.0 2\Onyo_v1.0\obj\Debug\netcoreapp3.1\Razor\Views\Shared\Error.cshtml.g.cs
-C:\AngularProjects\Practice Code\Onyo_v1.0 2\Onyo_v1.0\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_Layout.cshtml.g.cs
-C:\AngularProjects\Practice Code\Onyo_v1.0 2\Onyo_v1.0\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_ValidationScriptsPartial.cshtml.g.cs
-C:\AngularProjects\Practice Code\Onyo_v1.0 2\Onyo_v1.0\obj\Debug\netcoreapp3.1\Razor\Views\_ViewImports.cshtml.g.cs
-C:\AngularProjects\Practice Code\Onyo_v1.0 2\Onyo_v1.0\obj\Debug\netcoreapp3.1\Razor\Views\_ViewStart.cshtml.g.cs
-C:\AngularProjects\Practice Code\Onyo_v1.0 2\Onyo_v1.0\obj\Debug\netcoreapp3.1\Onyo_v1.0.RazorTargetAssemblyInfo.cache
-C:\AngularProjects\Practice Code\Onyo_v1.0 2\Onyo_v1.0\obj\Debug\netcoreapp3.1\Onyo_v1.0.RazorTargetAssemblyInfo.cs
-C:\AngularProjects\Practice Code\Onyo_v1.0 2\Onyo_v1.0\obj\Debug\netcoreapp3.1\Onyo_v1.0.Views.pdb
-C:\AngularProjects\Practice Code\Onyo_v1.0 2\Onyo_v1.0\obj\Debug\netcoreapp3.1\Onyo_v1.0.csproj.CopyComplete
-C:\AngularProjects\Practice Code\Onyo_v1.0 2\Onyo_v1.0\obj\Debug\netcoreapp3.1\Onyo_v1.0.dll
-C:\AngularProjects\Practice Code\Onyo_v1.0 2\Onyo_v1.0\obj\Debug\netcoreapp3.1\Onyo_v1.0.pdb
-C:\AngularProjects\Practice Code\Onyo_v1.0 2\Onyo_v1.0\obj\Debug\netcoreapp3.1\Onyo_v1.0.genruntimeconfig.cache
+C:/AngularProjects/Practice Code/Onyo_v1.0 2/Onyo_v1.0/bin/Debug/netcoreapp3.1/OnyaHelpers.deps.json
+C:/AngularProjects/Practice Code/Onyo_v1.0 2/Onyo_v1.0/bin/Debug/netcoreapp3.1/OnyaHelpers.runtimeconfig.json
+C:/AngularProjects/Practice Code/Onyo_v1.0 2/Onyo_v1.0/bin/Debug/netcoreapp3.1/OnyaHelpers.runtimeconfig.dev.json
+C:/AngularProjects/Practice Code/Onyo_v1.0 2/Onyo_v1.0/bin/Debug/netcoreapp3.1/OnyaHelpers.exe
+C:/AngularProjects/Practice Code/Onyo_v1.0 2/Onyo_v1.0/bin/Debug/netcoreapp3.1/appsettings.Development.json
+C:/AngularProjects/Practice Code/Onyo_v1.0 2/Onyo_v1.0/bin/Debug/netcoreapp3.1/appsettings.json
+C:/AngularProjects/Practice Code/Onyo_v1.0 2/Onyo_v1.0/bin/Debug/netcoreapp3.1/Onyo_v1.0.exe
+C:/AngularProjects/Practice Code/Onyo_v1.0 2/Onyo_v1.0/bin/Debug/netcoreapp3.1/Onyo_v1.0.deps.json
+C:/AngularProjects/Practice Code/Onyo_v1.0 2/Onyo_v1.0/bin/Debug/netcoreapp3.1/Onyo_v1.0.runtimeconfig.json
+C:/AngularProjects/Practice Code/Onyo_v1.0 2/Onyo_v1.0/bin/Debug/netcoreapp3.1/Onyo_v1.0.runtimeconfig.dev.json
+C:/AngularProjects/Practice Code/Onyo_v1.0 2/Onyo_v1.0/bin/Debug/netcoreapp3.1/Onyo_v1.0.dll
+C:/AngularProjects/Practice Code/Onyo_v1.0 2/Onyo_v1.0/bin/Debug/netcoreapp3.1/Onyo_v1.0.pdb
+C:/AngularProjects/Practice Code/Onyo_v1.0 2/Onyo_v1.0/bin/Debug/netcoreapp3.1/Onyo_v1.0.Views.dll
+C:/AngularProjects/Practice Code/Onyo_v1.0 2/Onyo_v1.0/bin/Debug/netcoreapp3.1/Onyo_v1.0.Views.pdb
+C:/AngularProjects/Practice Code/Onyo_v1.0 2/Onyo_v1.0/bin/Debug/netcoreapp3.1/Dapper.dll
+C:/AngularProjects/Practice Code/Onyo_v1.0 2/Onyo_v1.0/bin/Debug/netcoreapp3.1/Microsoft.Extensions.Configuration.Abstractions.dll
+C:/AngularProjects/Practice Code/Onyo_v1.0 2/Onyo_v1.0/bin/Debug/netcoreapp3.1/Microsoft.Extensions.Primitives.dll
+C:/AngularProjects/Practice Code/Onyo_v1.0 2/Onyo_v1.0/bin/Debug/netcoreapp3.1/Npgsql.dll
+C:/AngularProjects/Practice Code/Onyo_v1.0 2/Onyo_v1.0/bin/Debug/netcoreapp3.1/System.Diagnostics.DiagnosticSource.dll
+C:/AngularProjects/Practice Code/Onyo_v1.0 2/Onyo_v1.0/bin/Debug/netcoreapp3.1/System.Runtime.CompilerServices.Unsafe.dll
+C:/AngularProjects/Practice Code/Onyo_v1.0 2/Onyo_v1.0/bin/Debug/netcoreapp3.1/OnyaDAL.dll
+C:/AngularProjects/Practice Code/Onyo_v1.0 2/Onyo_v1.0/bin/Debug/netcoreapp3.1/OnyaHelpers.dll
+C:/AngularProjects/Practice Code/Onyo_v1.0 2/Onyo_v1.0/bin/Debug/netcoreapp3.1/OnyaModels.dll
+C:/AngularProjects/Practice Code/Onyo_v1.0 2/Onyo_v1.0/bin/Debug/netcoreapp3.1/OnyaServices.dll
+C:/AngularProjects/Practice Code/Onyo_v1.0 2/Onyo_v1.0/bin/Debug/netcoreapp3.1/OnyaServices.pdb
+C:/AngularProjects/Practice Code/Onyo_v1.0 2/Onyo_v1.0/bin/Debug/netcoreapp3.1/OnyaDAL.pdb
+C:/AngularProjects/Practice Code/Onyo_v1.0 2/Onyo_v1.0/bin/Debug/netcoreapp3.1/OnyaHelpers.pdb
+C:/AngularProjects/Practice Code/Onyo_v1.0 2/Onyo_v1.0/bin/Debug/netcoreapp3.1/OnyaModels.pdb
+C:/AngularProjects/Practice Code/Onyo_v1.0 2/Onyo_v1.0/obj/Debug/netcoreapp3.1/Onyo_v1.0.csproj.AssemblyReference.cache
+C:/AngularProjects/Practice Code/Onyo_v1.0 2/Onyo_v1.0/obj/Debug/netcoreapp3.1/Onyo_v1.0.GeneratedMSBuildEditorConfig.editorconfig
+C:/AngularProjects/Practice Code/Onyo_v1.0 2/Onyo_v1.0/obj/Debug/netcoreapp3.1/Onyo_v1.0.AssemblyInfoInputs.cache
+C:/AngularProjects/Practice Code/Onyo_v1.0 2/Onyo_v1.0/obj/Debug/netcoreapp3.1/Onyo_v1.0.AssemblyInfo.cs
+C:/AngularProjects/Practice Code/Onyo_v1.0 2/Onyo_v1.0/obj/Debug/netcoreapp3.1/Onyo_v1.0.csproj.CoreCompileInputs.cache
+C:/AngularProjects/Practice Code/Onyo_v1.0 2/Onyo_v1.0/obj/Debug/netcoreapp3.1/Onyo_v1.0.MvcApplicationPartsAssemblyInfo.cache
+C:/AngularProjects/Practice Code/Onyo_v1.0 2/Onyo_v1.0/obj/Debug/netcoreapp3.1/Onyo_v1.0.RazorAssemblyInfo.cache
+C:/AngularProjects/Practice Code/Onyo_v1.0 2/Onyo_v1.0/obj/Debug/netcoreapp3.1/Onyo_v1.0.RazorAssemblyInfo.cs
+C:/AngularProjects/Practice Code/Onyo_v1.0 2/Onyo_v1.0/obj/Debug/netcoreapp3.1/staticwebassets/Onyo_v1.0.StaticWebAssets.Manifest.cache
+C:/AngularProjects/Practice Code/Onyo_v1.0 2/Onyo_v1.0/obj/Debug/netcoreapp3.1/staticwebassets/Onyo_v1.0.StaticWebAssets.xml
+C:/AngularProjects/Practice Code/Onyo_v1.0 2/Onyo_v1.0/obj/Debug/netcoreapp3.1/scopedcss/bundle/Onyo_v1.0.styles.css
+C:/AngularProjects/Practice Code/Onyo_v1.0 2/Onyo_v1.0/obj/Debug/netcoreapp3.1/Onyo_v1.0.TagHelpers.input.cache
+C:/AngularProjects/Practice Code/Onyo_v1.0 2/Onyo_v1.0/obj/Debug/netcoreapp3.1/Onyo_v1.0.TagHelpers.output.cache
+C:/AngularProjects/Practice Code/Onyo_v1.0 2/Onyo_v1.0/obj/Debug/netcoreapp3.1/Onyo_v1.0.RazorCoreGenerate.cache
+C:/AngularProjects/Practice Code/Onyo_v1.0 2/Onyo_v1.0/obj/Debug/netcoreapp3.1/Razor/Views/Home/Index.cshtml.g.cs
+C:/AngularProjects/Practice Code/Onyo_v1.0 2/Onyo_v1.0/obj/Debug/netcoreapp3.1/Razor/Views/Home/Privacy.cshtml.g.cs
+C:/AngularProjects/Practice Code/Onyo_v1.0 2/Onyo_v1.0/obj/Debug/netcoreapp3.1/Razor/Views/Shared/Error.cshtml.g.cs
+C:/AngularProjects/Practice Code/Onyo_v1.0 2/Onyo_v1.0/obj/Debug/netcoreapp3.1/Razor/Views/Shared/_Layout.cshtml.g.cs
+C:/AngularProjects/Practice Code/Onyo_v1.0 2/Onyo_v1.0/obj/Debug/netcoreapp3.1/Razor/Views/Shared/_ValidationScriptsPartial.cshtml.g.cs
+C:/AngularProjects/Practice Code/Onyo_v1.0 2/Onyo_v1.0/obj/Debug/netcoreapp3.1/Razor/Views/_ViewImports.cshtml.g.cs
+C:/AngularProjects/Practice Code/Onyo_v1.0 2/Onyo_v1.0/obj/Debug/netcoreapp3.1/Razor/Views/_ViewStart.cshtml.g.cs
+C:/AngularProjects/Practice Code/Onyo_v1.0 2/Onyo_v1.0/obj/Debug/netcoreapp3.1/Onyo_v1.0.RazorTargetAssemblyInfo.cache
+C:/AngularProjects/Practice Code/Onyo_v1.0 2/Onyo_v1.0/obj/Debug/netcoreapp3.1/Onyo_v1.0.RazorTargetAssemblyInfo.cs
+C:/AngularProjects/Practice Code/Onyo_v1.0 2/Onyo_v1.0/obj/Debug/netcoreapp3.1/Onyo_v1.0.Views.pdb
+C:/AngularProjects/Practice Code/Onyo_v1.0 2/Onyo_v1.0/obj/Debug/netcoreapp3.1/Onyo_v1.0.csproj.CopyComplete
+C:/AngularProjects/Practice Code/Onyo_v1.0 2/Onyo_v1.0/obj/Debug/netcoreapp3.1/Onyo_v1.0.dll
+C:/AngularProjects/Practice Code/Onyo_v1.0 2/Onyo_v1.0/obj/Debug/netcoreapp3.1/Onyo_v1.0.pdb
+C:/AngularProjects/Practice Code/Onyo_v1.0 2/Onyo_v1.0/obj/Debug/netcoreapp3.1/Onyo_v1.0.genruntimeconfig.cache
+/Users/stupasportanalytics/Documents/Karan Workspace/Projects/Backend/OnyaGithub/Onyo_v1.0/bin/Debug/netcoreapp3.1/OnyaHelpers.deps.json
+/Users/stupasportanalytics/Documents/Karan Workspace/Projects/Backend/OnyaGithub/Onyo_v1.0/bin/Debug/netcoreapp3.1/OnyaHelpers.runtimeconfig.json
+/Users/stupasportanalytics/Documents/Karan Workspace/Projects/Backend/OnyaGithub/Onyo_v1.0/bin/Debug/netcoreapp3.1/OnyaHelpers.runtimeconfig.dev.json
+/Users/stupasportanalytics/Documents/Karan Workspace/Projects/Backend/OnyaGithub/Onyo_v1.0/bin/Debug/netcoreapp3.1/OnyaHelpers
+/Users/stupasportanalytics/Documents/Karan Workspace/Projects/Backend/OnyaGithub/Onyo_v1.0/bin/Debug/netcoreapp3.1/appsettings.Development.json
+/Users/stupasportanalytics/Documents/Karan Workspace/Projects/Backend/OnyaGithub/Onyo_v1.0/bin/Debug/netcoreapp3.1/appsettings.json
+/Users/stupasportanalytics/Documents/Karan Workspace/Projects/Backend/OnyaGithub/Onyo_v1.0/bin/Debug/netcoreapp3.1/Onyo_v1.0.StaticWebAssets.xml
+/Users/stupasportanalytics/Documents/Karan Workspace/Projects/Backend/OnyaGithub/Onyo_v1.0/bin/Debug/netcoreapp3.1/Onyo_v1.0
+/Users/stupasportanalytics/Documents/Karan Workspace/Projects/Backend/OnyaGithub/Onyo_v1.0/bin/Debug/netcoreapp3.1/Onyo_v1.0.deps.json
+/Users/stupasportanalytics/Documents/Karan Workspace/Projects/Backend/OnyaGithub/Onyo_v1.0/bin/Debug/netcoreapp3.1/Onyo_v1.0.runtimeconfig.json
+/Users/stupasportanalytics/Documents/Karan Workspace/Projects/Backend/OnyaGithub/Onyo_v1.0/bin/Debug/netcoreapp3.1/Onyo_v1.0.runtimeconfig.dev.json
+/Users/stupasportanalytics/Documents/Karan Workspace/Projects/Backend/OnyaGithub/Onyo_v1.0/bin/Debug/netcoreapp3.1/Onyo_v1.0.dll
+/Users/stupasportanalytics/Documents/Karan Workspace/Projects/Backend/OnyaGithub/Onyo_v1.0/bin/Debug/netcoreapp3.1/Onyo_v1.0.pdb
+/Users/stupasportanalytics/Documents/Karan Workspace/Projects/Backend/OnyaGithub/Onyo_v1.0/bin/Debug/netcoreapp3.1/Onyo_v1.0.Views.dll
+/Users/stupasportanalytics/Documents/Karan Workspace/Projects/Backend/OnyaGithub/Onyo_v1.0/bin/Debug/netcoreapp3.1/Onyo_v1.0.Views.pdb
+/Users/stupasportanalytics/Documents/Karan Workspace/Projects/Backend/OnyaGithub/Onyo_v1.0/bin/Debug/netcoreapp3.1/Dapper.dll
+/Users/stupasportanalytics/Documents/Karan Workspace/Projects/Backend/OnyaGithub/Onyo_v1.0/bin/Debug/netcoreapp3.1/Microsoft.Extensions.Configuration.Abstractions.dll
+/Users/stupasportanalytics/Documents/Karan Workspace/Projects/Backend/OnyaGithub/Onyo_v1.0/bin/Debug/netcoreapp3.1/Microsoft.Extensions.Primitives.dll
+/Users/stupasportanalytics/Documents/Karan Workspace/Projects/Backend/OnyaGithub/Onyo_v1.0/bin/Debug/netcoreapp3.1/Npgsql.dll
+/Users/stupasportanalytics/Documents/Karan Workspace/Projects/Backend/OnyaGithub/Onyo_v1.0/bin/Debug/netcoreapp3.1/System.Diagnostics.DiagnosticSource.dll
+/Users/stupasportanalytics/Documents/Karan Workspace/Projects/Backend/OnyaGithub/Onyo_v1.0/bin/Debug/netcoreapp3.1/System.Runtime.CompilerServices.Unsafe.dll
+/Users/stupasportanalytics/Documents/Karan Workspace/Projects/Backend/OnyaGithub/Onyo_v1.0/bin/Debug/netcoreapp3.1/OnyaDAL.dll
+/Users/stupasportanalytics/Documents/Karan Workspace/Projects/Backend/OnyaGithub/Onyo_v1.0/bin/Debug/netcoreapp3.1/OnyaHelpers.dll
+/Users/stupasportanalytics/Documents/Karan Workspace/Projects/Backend/OnyaGithub/Onyo_v1.0/bin/Debug/netcoreapp3.1/OnyaModels.dll
+/Users/stupasportanalytics/Documents/Karan Workspace/Projects/Backend/OnyaGithub/Onyo_v1.0/bin/Debug/netcoreapp3.1/OnyaServices.dll
+/Users/stupasportanalytics/Documents/Karan Workspace/Projects/Backend/OnyaGithub/Onyo_v1.0/bin/Debug/netcoreapp3.1/OnyaServices.pdb
+/Users/stupasportanalytics/Documents/Karan Workspace/Projects/Backend/OnyaGithub/Onyo_v1.0/bin/Debug/netcoreapp3.1/OnyaDAL.pdb
+/Users/stupasportanalytics/Documents/Karan Workspace/Projects/Backend/OnyaGithub/Onyo_v1.0/bin/Debug/netcoreapp3.1/OnyaHelpers.pdb
+/Users/stupasportanalytics/Documents/Karan Workspace/Projects/Backend/OnyaGithub/Onyo_v1.0/bin/Debug/netcoreapp3.1/OnyaModels.pdb
+/Users/stupasportanalytics/Documents/Karan Workspace/Projects/Backend/OnyaGithub/Onyo_v1.0/obj/Debug/netcoreapp3.1/Onyo_v1.0.csproj.AssemblyReference.cache
+/Users/stupasportanalytics/Documents/Karan Workspace/Projects/Backend/OnyaGithub/Onyo_v1.0/obj/Debug/netcoreapp3.1/Onyo_v1.0.GeneratedMSBuildEditorConfig.editorconfig
+/Users/stupasportanalytics/Documents/Karan Workspace/Projects/Backend/OnyaGithub/Onyo_v1.0/obj/Debug/netcoreapp3.1/Onyo_v1.0.AssemblyInfoInputs.cache
+/Users/stupasportanalytics/Documents/Karan Workspace/Projects/Backend/OnyaGithub/Onyo_v1.0/obj/Debug/netcoreapp3.1/Onyo_v1.0.AssemblyInfo.cs
+/Users/stupasportanalytics/Documents/Karan Workspace/Projects/Backend/OnyaGithub/Onyo_v1.0/obj/Debug/netcoreapp3.1/Onyo_v1.0.csproj.CoreCompileInputs.cache
+/Users/stupasportanalytics/Documents/Karan Workspace/Projects/Backend/OnyaGithub/Onyo_v1.0/obj/Debug/netcoreapp3.1/Onyo_v1.0.MvcApplicationPartsAssemblyInfo.cache
+/Users/stupasportanalytics/Documents/Karan Workspace/Projects/Backend/OnyaGithub/Onyo_v1.0/obj/Debug/netcoreapp3.1/Onyo_v1.0.RazorAssemblyInfo.cache
+/Users/stupasportanalytics/Documents/Karan Workspace/Projects/Backend/OnyaGithub/Onyo_v1.0/obj/Debug/netcoreapp3.1/Onyo_v1.0.RazorAssemblyInfo.cs
+/Users/stupasportanalytics/Documents/Karan Workspace/Projects/Backend/OnyaGithub/Onyo_v1.0/obj/Debug/netcoreapp3.1/staticwebassets/Onyo_v1.0.StaticWebAssets.Manifest.cache
+/Users/stupasportanalytics/Documents/Karan Workspace/Projects/Backend/OnyaGithub/Onyo_v1.0/obj/Debug/netcoreapp3.1/Onyo_v1.0.TagHelpers.input.cache
+/Users/stupasportanalytics/Documents/Karan Workspace/Projects/Backend/OnyaGithub/Onyo_v1.0/obj/Debug/netcoreapp3.1/Onyo_v1.0.TagHelpers.output.cache
+/Users/stupasportanalytics/Documents/Karan Workspace/Projects/Backend/OnyaGithub/Onyo_v1.0/obj/Debug/netcoreapp3.1/Onyo_v1.0.RazorCoreGenerate.cache
+/Users/stupasportanalytics/Documents/Karan Workspace/Projects/Backend/OnyaGithub/Onyo_v1.0/obj/Debug/netcoreapp3.1/Razor/Views/Home/Index.cshtml.g.cs
+/Users/stupasportanalytics/Documents/Karan Workspace/Projects/Backend/OnyaGithub/Onyo_v1.0/obj/Debug/netcoreapp3.1/Razor/Views/Home/Privacy.cshtml.g.cs
+/Users/stupasportanalytics/Documents/Karan Workspace/Projects/Backend/OnyaGithub/Onyo_v1.0/obj/Debug/netcoreapp3.1/Razor/Views/Shared/Error.cshtml.g.cs
+/Users/stupasportanalytics/Documents/Karan Workspace/Projects/Backend/OnyaGithub/Onyo_v1.0/obj/Debug/netcoreapp3.1/Razor/Views/Shared/_Layout.cshtml.g.cs
+/Users/stupasportanalytics/Documents/Karan Workspace/Projects/Backend/OnyaGithub/Onyo_v1.0/obj/Debug/netcoreapp3.1/Razor/Views/Shared/_ValidationScriptsPartial.cshtml.g.cs
+/Users/stupasportanalytics/Documents/Karan Workspace/Projects/Backend/OnyaGithub/Onyo_v1.0/obj/Debug/netcoreapp3.1/Razor/Views/_ViewImports.cshtml.g.cs
+/Users/stupasportanalytics/Documents/Karan Workspace/Projects/Backend/OnyaGithub/Onyo_v1.0/obj/Debug/netcoreapp3.1/Razor/Views/_ViewStart.cshtml.g.cs
+/Users/stupasportanalytics/Documents/Karan Workspace/Projects/Backend/OnyaGithub/Onyo_v1.0/obj/Debug/netcoreapp3.1/Onyo_v1.0.RazorTargetAssemblyInfo.cache
+/Users/stupasportanalytics/Documents/Karan Workspace/Projects/Backend/OnyaGithub/Onyo_v1.0/obj/Debug/netcoreapp3.1/Onyo_v1.0.RazorTargetAssemblyInfo.cs
+/Users/stupasportanalytics/Documents/Karan Workspace/Projects/Backend/OnyaGithub/Onyo_v1.0/obj/Debug/netcoreapp3.1/Onyo_v1.0.Views.pdb
+/Users/stupasportanalytics/Documents/Karan Workspace/Projects/Backend/OnyaGithub/Onyo_v1.0/obj/Debug/netcoreapp3.1/Onyo_v1.0.csproj.CopyComplete
+/Users/stupasportanalytics/Documents/Karan Workspace/Projects/Backend/OnyaGithub/Onyo_v1.0/obj/Debug/netcoreapp3.1/Onyo_v1.0.dll
+/Users/stupasportanalytics/Documents/Karan Workspace/Projects/Backend/OnyaGithub/Onyo_v1.0/obj/Debug/netcoreapp3.1/Onyo_v1.0.pdb
+/Users/stupasportanalytics/Documents/Karan Workspace/Projects/Backend/OnyaGithub/Onyo_v1.0/obj/Debug/netcoreapp3.1/Onyo_v1.0.genruntimeconfig.cache
+/Users/stupasportanalytics/Documents/Karan Workspace/Projects/Backend/Onya/Onyo_v1.0/obj/Debug/netcoreapp3.1/Onyo_v1.0.csproj.AssemblyReference.cache
+/Users/stupasportanalytics/Documents/Karan Workspace/Projects/Backend/Onya/Onyo_v1.0/obj/Debug/netcoreapp3.1/Onyo_v1.0.GeneratedMSBuildEditorConfig.editorconfig
+/Users/stupasportanalytics/Documents/Karan Workspace/Projects/Backend/Onya/Onyo_v1.0/obj/Debug/netcoreapp3.1/Onyo_v1.0.AssemblyInfoInputs.cache
+/Users/stupasportanalytics/Documents/Karan Workspace/Projects/Backend/Onya/Onyo_v1.0/obj/Debug/netcoreapp3.1/Onyo_v1.0.AssemblyInfo.cs
+/Users/stupasportanalytics/Documents/Karan Workspace/Projects/Backend/Onya/Onyo_v1.0/obj/Debug/netcoreapp3.1/Onyo_v1.0.csproj.CoreCompileInputs.cache
+/Users/stupasportanalytics/Documents/Karan Workspace/Projects/Backend/Onya/Onyo_v1.0/obj/Debug/netcoreapp3.1/Onyo_v1.0.MvcApplicationPartsAssemblyInfo.cache
+/Users/stupasportanalytics/Documents/Karan Workspace/Projects/Backend/Onya/Onyo_v1.0/obj/Debug/netcoreapp3.1/Onyo_v1.0.RazorAssemblyInfo.cache
+/Users/stupasportanalytics/Documents/Karan Workspace/Projects/Backend/Onya/Onyo_v1.0/obj/Debug/netcoreapp3.1/Onyo_v1.0.RazorAssemblyInfo.cs
+/Users/stupasportanalytics/Documents/Karan Workspace/Projects/Backend/Onya/Onyo_v1.0/bin/Debug/netcoreapp3.1/OnyaHelpers.deps.json
+/Users/stupasportanalytics/Documents/Karan Workspace/Projects/Backend/Onya/Onyo_v1.0/bin/Debug/netcoreapp3.1/OnyaHelpers.runtimeconfig.json
+/Users/stupasportanalytics/Documents/Karan Workspace/Projects/Backend/Onya/Onyo_v1.0/bin/Debug/netcoreapp3.1/OnyaHelpers.runtimeconfig.dev.json
+/Users/stupasportanalytics/Documents/Karan Workspace/Projects/Backend/Onya/Onyo_v1.0/bin/Debug/netcoreapp3.1/OnyaHelpers
+/Users/stupasportanalytics/Documents/Karan Workspace/Projects/Backend/Onya/Onyo_v1.0/bin/Debug/netcoreapp3.1/appsettings.Development.json
+/Users/stupasportanalytics/Documents/Karan Workspace/Projects/Backend/Onya/Onyo_v1.0/bin/Debug/netcoreapp3.1/appsettings.json
+/Users/stupasportanalytics/Documents/Karan Workspace/Projects/Backend/Onya/Onyo_v1.0/bin/Debug/netcoreapp3.1/Onyo_v1.0.StaticWebAssets.xml
+/Users/stupasportanalytics/Documents/Karan Workspace/Projects/Backend/Onya/Onyo_v1.0/bin/Debug/netcoreapp3.1/Onyo_v1.0
+/Users/stupasportanalytics/Documents/Karan Workspace/Projects/Backend/Onya/Onyo_v1.0/bin/Debug/netcoreapp3.1/Onyo_v1.0.deps.json
+/Users/stupasportanalytics/Documents/Karan Workspace/Projects/Backend/Onya/Onyo_v1.0/bin/Debug/netcoreapp3.1/Onyo_v1.0.runtimeconfig.json
+/Users/stupasportanalytics/Documents/Karan Workspace/Projects/Backend/Onya/Onyo_v1.0/bin/Debug/netcoreapp3.1/Onyo_v1.0.runtimeconfig.dev.json
+/Users/stupasportanalytics/Documents/Karan Workspace/Projects/Backend/Onya/Onyo_v1.0/bin/Debug/netcoreapp3.1/Onyo_v1.0.dll
+/Users/stupasportanalytics/Documents/Karan Workspace/Projects/Backend/Onya/Onyo_v1.0/bin/Debug/netcoreapp3.1/Onyo_v1.0.pdb
+/Users/stupasportanalytics/Documents/Karan Workspace/Projects/Backend/Onya/Onyo_v1.0/bin/Debug/netcoreapp3.1/Onyo_v1.0.Views.dll
+/Users/stupasportanalytics/Documents/Karan Workspace/Projects/Backend/Onya/Onyo_v1.0/bin/Debug/netcoreapp3.1/Onyo_v1.0.Views.pdb
+/Users/stupasportanalytics/Documents/Karan Workspace/Projects/Backend/Onya/Onyo_v1.0/bin/Debug/netcoreapp3.1/CorePush.dll
+/Users/stupasportanalytics/Documents/Karan Workspace/Projects/Backend/Onya/Onyo_v1.0/bin/Debug/netcoreapp3.1/Dapper.dll
+/Users/stupasportanalytics/Documents/Karan Workspace/Projects/Backend/Onya/Onyo_v1.0/bin/Debug/netcoreapp3.1/Microsoft.Extensions.Configuration.Abstractions.dll
+/Users/stupasportanalytics/Documents/Karan Workspace/Projects/Backend/Onya/Onyo_v1.0/bin/Debug/netcoreapp3.1/Microsoft.Extensions.Primitives.dll
+/Users/stupasportanalytics/Documents/Karan Workspace/Projects/Backend/Onya/Onyo_v1.0/bin/Debug/netcoreapp3.1/Newtonsoft.Json.dll
+/Users/stupasportanalytics/Documents/Karan Workspace/Projects/Backend/Onya/Onyo_v1.0/bin/Debug/netcoreapp3.1/Npgsql.dll
+/Users/stupasportanalytics/Documents/Karan Workspace/Projects/Backend/Onya/Onyo_v1.0/bin/Debug/netcoreapp3.1/BouncyCastle.Crypto.dll
+/Users/stupasportanalytics/Documents/Karan Workspace/Projects/Backend/Onya/Onyo_v1.0/bin/Debug/netcoreapp3.1/System.Diagnostics.DiagnosticSource.dll
+/Users/stupasportanalytics/Documents/Karan Workspace/Projects/Backend/Onya/Onyo_v1.0/bin/Debug/netcoreapp3.1/System.Runtime.CompilerServices.Unsafe.dll
+/Users/stupasportanalytics/Documents/Karan Workspace/Projects/Backend/Onya/Onyo_v1.0/bin/Debug/netcoreapp3.1/OnyaDAL.dll
+/Users/stupasportanalytics/Documents/Karan Workspace/Projects/Backend/Onya/Onyo_v1.0/bin/Debug/netcoreapp3.1/OnyaHelpers.dll
+/Users/stupasportanalytics/Documents/Karan Workspace/Projects/Backend/Onya/Onyo_v1.0/bin/Debug/netcoreapp3.1/OnyaModels.dll
+/Users/stupasportanalytics/Documents/Karan Workspace/Projects/Backend/Onya/Onyo_v1.0/bin/Debug/netcoreapp3.1/OnyaServices.dll
+/Users/stupasportanalytics/Documents/Karan Workspace/Projects/Backend/Onya/Onyo_v1.0/bin/Debug/netcoreapp3.1/OnyaServices.pdb
+/Users/stupasportanalytics/Documents/Karan Workspace/Projects/Backend/Onya/Onyo_v1.0/bin/Debug/netcoreapp3.1/OnyaDAL.pdb
+/Users/stupasportanalytics/Documents/Karan Workspace/Projects/Backend/Onya/Onyo_v1.0/bin/Debug/netcoreapp3.1/OnyaHelpers.pdb
+/Users/stupasportanalytics/Documents/Karan Workspace/Projects/Backend/Onya/Onyo_v1.0/bin/Debug/netcoreapp3.1/OnyaModels.pdb
+/Users/stupasportanalytics/Documents/Karan Workspace/Projects/Backend/Onya/Onyo_v1.0/obj/Debug/netcoreapp3.1/staticwebassets/Onyo_v1.0.StaticWebAssets.Manifest.cache
+/Users/stupasportanalytics/Documents/Karan Workspace/Projects/Backend/Onya/Onyo_v1.0/obj/Debug/netcoreapp3.1/staticwebassets/Onyo_v1.0.StaticWebAssets.Pack.cache
+/Users/stupasportanalytics/Documents/Karan Workspace/Projects/Backend/Onya/Onyo_v1.0/obj/Debug/netcoreapp3.1/staticwebassets/msbuild.Onyo_v1.0.Microsoft.AspNetCore.StaticWebAssets.props
+/Users/stupasportanalytics/Documents/Karan Workspace/Projects/Backend/Onya/Onyo_v1.0/obj/Debug/netcoreapp3.1/staticwebassets/msbuild.build.Onyo_v1.0.props
+/Users/stupasportanalytics/Documents/Karan Workspace/Projects/Backend/Onya/Onyo_v1.0/obj/Debug/netcoreapp3.1/staticwebassets/msbuild.buildMultiTargeting.Onyo_v1.0.props
+/Users/stupasportanalytics/Documents/Karan Workspace/Projects/Backend/Onya/Onyo_v1.0/obj/Debug/netcoreapp3.1/staticwebassets/msbuild.buildTransitive.Onyo_v1.0.props
+/Users/stupasportanalytics/Documents/Karan Workspace/Projects/Backend/Onya/Onyo_v1.0/obj/Debug/netcoreapp3.1/Onyo_v1.0.TagHelpers.input.cache
+/Users/stupasportanalytics/Documents/Karan Workspace/Projects/Backend/Onya/Onyo_v1.0/obj/Debug/netcoreapp3.1/Onyo_v1.0.TagHelpers.output.cache
+/Users/stupasportanalytics/Documents/Karan Workspace/Projects/Backend/Onya/Onyo_v1.0/obj/Debug/netcoreapp3.1/Onyo_v1.0.RazorCoreGenerate.cache
+/Users/stupasportanalytics/Documents/Karan Workspace/Projects/Backend/Onya/Onyo_v1.0/obj/Debug/netcoreapp3.1/Razor/Views/Home/Index.cshtml.g.cs
+/Users/stupasportanalytics/Documents/Karan Workspace/Projects/Backend/Onya/Onyo_v1.0/obj/Debug/netcoreapp3.1/Razor/Views/Home/Privacy.cshtml.g.cs
+/Users/stupasportanalytics/Documents/Karan Workspace/Projects/Backend/Onya/Onyo_v1.0/obj/Debug/netcoreapp3.1/Razor/Views/Shared/Error.cshtml.g.cs
+/Users/stupasportanalytics/Documents/Karan Workspace/Projects/Backend/Onya/Onyo_v1.0/obj/Debug/netcoreapp3.1/Razor/Views/Shared/_Layout.cshtml.g.cs
+/Users/stupasportanalytics/Documents/Karan Workspace/Projects/Backend/Onya/Onyo_v1.0/obj/Debug/netcoreapp3.1/Razor/Views/Shared/_ValidationScriptsPartial.cshtml.g.cs
+/Users/stupasportanalytics/Documents/Karan Workspace/Projects/Backend/Onya/Onyo_v1.0/obj/Debug/netcoreapp3.1/Razor/Views/_ViewImports.cshtml.g.cs
+/Users/stupasportanalytics/Documents/Karan Workspace/Projects/Backend/Onya/Onyo_v1.0/obj/Debug/netcoreapp3.1/Razor/Views/_ViewStart.cshtml.g.cs
+/Users/stupasportanalytics/Documents/Karan Workspace/Projects/Backend/Onya/Onyo_v1.0/obj/Debug/netcoreapp3.1/Onyo_v1.0.RazorTargetAssemblyInfo.cache
+/Users/stupasportanalytics/Documents/Karan Workspace/Projects/Backend/Onya/Onyo_v1.0/obj/Debug/netcoreapp3.1/Onyo_v1.0.RazorTargetAssemblyInfo.cs
+/Users/stupasportanalytics/Documents/Karan Workspace/Projects/Backend/Onya/Onyo_v1.0/obj/Debug/netcoreapp3.1/Onyo_v1.0.Views.pdb
+/Users/stupasportanalytics/Documents/Karan Workspace/Projects/Backend/Onya/Onyo_v1.0/obj/Debug/netcoreapp3.1/Onyo_v1.0.csproj.CopyComplete
+/Users/stupasportanalytics/Documents/Karan Workspace/Projects/Backend/Onya/Onyo_v1.0/obj/Debug/netcoreapp3.1/Onyo_v1.0.dll
+/Users/stupasportanalytics/Documents/Karan Workspace/Projects/Backend/Onya/Onyo_v1.0/obj/Debug/netcoreapp3.1/Onyo_v1.0.pdb
+/Users/stupasportanalytics/Documents/Karan Workspace/Projects/Backend/Onya/Onyo_v1.0/obj/Debug/netcoreapp3.1/Onyo_v1.0.genruntimeconfig.cache

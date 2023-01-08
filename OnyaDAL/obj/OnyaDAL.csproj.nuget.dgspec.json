@@ -1,38 +1,37 @@
 {
   "format": 1,
   "restore": {
-    "C:\\AngularProjects\\Practice Code\\Onyo_v1.0 2\\OnyaDAL\\OnyaDAL.csproj": {}
+    "/Users/stupasportanalytics/Documents/Karan Workspace/Projects/Backend/Onya/OnyaDAL/OnyaDAL.csproj": {}
   },
   "projects": {
-    "C:\\AngularProjects\\Practice Code\\Onyo_v1.0 2\\OnyaDAL\\OnyaDAL.csproj": {
+    "/Users/stupasportanalytics/Documents/Karan Workspace/Projects/Backend/Onya/OnyaDAL/OnyaDAL.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\AngularProjects\\Practice Code\\Onyo_v1.0 2\\OnyaDAL\\OnyaDAL.csproj",
+        "projectUniqueName": "/Users/stupasportanalytics/Documents/Karan Workspace/Projects/Backend/Onya/OnyaDAL/OnyaDAL.csproj",
         "projectName": "OnyaDAL",
-        "projectPath": "C:\\AngularProjects\\Practice Code\\Onyo_v1.0 2\\OnyaDAL\\OnyaDAL.csproj",
-        "packagesPath": "C:\\Users\\LENOVO STUPA\\.nuget\\packages\\",
-        "outputPath": "C:\\AngularProjects\\Practice Code\\Onyo_v1.0 2\\OnyaDAL\\obj\\",
+        "projectPath": "/Users/stupasportanalytics/Documents/Karan Workspace/Projects/Backend/Onya/OnyaDAL/OnyaDAL.csproj",
+        "packagesPath": "/Users/stupasportanalytics/.nuget/packages/",
+        "outputPath": "/Users/stupasportanalytics/Documents/Karan Workspace/Projects/Backend/Onya/OnyaDAL/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\LENOVO STUPA\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "/Users/stupasportanalytics/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "netcoreapp3.1"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "/usr/local/share/dotnet/library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "netcoreapp3.1": {
             "targetAlias": "netcoreapp3.1",
             "projectReferences": {
-              "C:\\AngularProjects\\Practice Code\\Onyo_v1.0 2\\OnyaHelpers\\OnyaHelpers.csproj": {
-                "projectPath": "C:\\AngularProjects\\Practice Code\\Onyo_v1.0 2\\OnyaHelpers\\OnyaHelpers.csproj"
+              "/Users/stupasportanalytics/Documents/Karan Workspace/Projects/Backend/Onya/OnyaHelpers/OnyaHelpers.csproj": {
+                "projectPath": "/Users/stupasportanalytics/Documents/Karan Workspace/Projects/Backend/Onya/OnyaHelpers/OnyaHelpers.csproj"
               },
-              "C:\\AngularProjects\\Practice Code\\Onyo_v1.0 2\\OnyoModels\\OnyaModels.csproj": {
-                "projectPath": "C:\\AngularProjects\\Practice Code\\Onyo_v1.0 2\\OnyoModels\\OnyaModels.csproj"
+              "/Users/stupasportanalytics/Documents/Karan Workspace/Projects/Backend/Onya/OnyoModels/OnyaModels.csproj": {
+                "projectPath": "/Users/stupasportanalytics/Documents/Karan Workspace/Projects/Backend/Onya/OnyoModels/OnyaModels.csproj"
               }
             }
           }
@@ -47,6 +46,10 @@
         "netcoreapp3.1": {
           "targetAlias": "netcoreapp3.1",
           "dependencies": {
+            "CorePush": {
+              "target": "Package",
+              "version": "[3.1.1, )"
+            },
             "Dapper": {
               "target": "Package",
               "version": "[2.0.123, )"
@@ -66,37 +69,47 @@
             "net47",
             "net471",
             "net472",
-            "net48"
+            "net48",
+            "net481"
           ],
           "assetTargetFallback": true,
           "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[3.1.10, 3.1.10]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Ref",
+              "version": "[3.1.0, 3.1.0]"
+            }
+          ],
           "frameworkReferences": {
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.413\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.101/RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\AngularProjects\\Practice Code\\Onyo_v1.0 2\\OnyaHelpers\\OnyaHelpers.csproj": {
+    "/Users/stupasportanalytics/Documents/Karan Workspace/Projects/Backend/Onya/OnyaHelpers/OnyaHelpers.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\AngularProjects\\Practice Code\\Onyo_v1.0 2\\OnyaHelpers\\OnyaHelpers.csproj",
+        "projectUniqueName": "/Users/stupasportanalytics/Documents/Karan Workspace/Projects/Backend/Onya/OnyaHelpers/OnyaHelpers.csproj",
         "projectName": "OnyaHelpers",
-        "projectPath": "C:\\AngularProjects\\Practice Code\\Onyo_v1.0 2\\OnyaHelpers\\OnyaHelpers.csproj",
-        "packagesPath": "C:\\Users\\LENOVO STUPA\\.nuget\\packages\\",
-        "outputPath": "C:\\AngularProjects\\Practice Code\\Onyo_v1.0 2\\OnyaHelpers\\obj\\",
+        "projectPath": "/Users/stupasportanalytics/Documents/Karan Workspace/Projects/Backend/Onya/OnyaHelpers/OnyaHelpers.csproj",
+        "packagesPath": "/Users/stupasportanalytics/.nuget/packages/",
+        "outputPath": "/Users/stupasportanalytics/Documents/Karan Workspace/Projects/Backend/Onya/OnyaHelpers/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\LENOVO STUPA\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "/Users/stupasportanalytics/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "netcoreapp3.1"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "/usr/local/share/dotnet/library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -115,6 +128,10 @@
         "netcoreapp3.1": {
           "targetAlias": "netcoreapp3.1",
           "dependencies": {
+            "CorePush": {
+              "target": "Package",
+              "version": "[3.1.1, )"
+            },
             "Dapper": {
               "target": "Package",
               "version": "[2.0.123, )"
@@ -130,37 +147,51 @@
             "net47",
             "net471",
             "net472",
-            "net48"
+            "net48",
+            "net481"
           ],
           "assetTargetFallback": true,
           "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[3.1.10, 3.1.10]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Host.osx-x64",
+              "version": "[3.1.32, 3.1.32]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Ref",
+              "version": "[3.1.0, 3.1.0]"
+            }
+          ],
           "frameworkReferences": {
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.413\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.101/RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\AngularProjects\\Practice Code\\Onyo_v1.0 2\\OnyoModels\\OnyaModels.csproj": {
+    "/Users/stupasportanalytics/Documents/Karan Workspace/Projects/Backend/Onya/OnyoModels/OnyaModels.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\AngularProjects\\Practice Code\\Onyo_v1.0 2\\OnyoModels\\OnyaModels.csproj",
+        "projectUniqueName": "/Users/stupasportanalytics/Documents/Karan Workspace/Projects/Backend/Onya/OnyoModels/OnyaModels.csproj",
         "projectName": "OnyaModels",
-        "projectPath": "C:\\AngularProjects\\Practice Code\\Onyo_v1.0 2\\OnyoModels\\OnyaModels.csproj",
-        "packagesPath": "C:\\Users\\LENOVO STUPA\\.nuget\\packages\\",
-        "outputPath": "C:\\AngularProjects\\Practice Code\\Onyo_v1.0 2\\OnyoModels\\obj\\",
+        "projectPath": "/Users/stupasportanalytics/Documents/Karan Workspace/Projects/Backend/Onya/OnyoModels/OnyaModels.csproj",
+        "packagesPath": "/Users/stupasportanalytics/.nuget/packages/",
+        "outputPath": "/Users/stupasportanalytics/Documents/Karan Workspace/Projects/Backend/Onya/OnyoModels/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\LENOVO STUPA\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "/Users/stupasportanalytics/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "netcoreapp3.1"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "/usr/local/share/dotnet/library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -179,6 +210,10 @@
         "netcoreapp3.1": {
           "targetAlias": "netcoreapp3.1",
           "dependencies": {
+            "CorePush": {
+              "target": "Package",
+              "version": "[3.1.1, )"
+            },
             "Dapper": {
               "target": "Package",
               "version": "[2.0.123, )"
@@ -190,16 +225,27 @@
             "net47",
             "net471",
             "net472",
-            "net48"
+            "net48",
+            "net481"
           ],
           "assetTargetFallback": true,
           "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[3.1.10, 3.1.10]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Ref",
+              "version": "[3.1.0, 3.1.0]"
+            }
+          ],
           "frameworkReferences": {
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.413\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.101/RuntimeIdentifierGraph.json"
         }
       }
     }

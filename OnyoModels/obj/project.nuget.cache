@@ -1,11 +1,16 @@
 {
   "version": 2,
-  "dgSpecHash": "x/J58N1wxNaG3q/AjlR3zA0X+z3b5JqggeytoEO6svicPG/tF78oKY2ilzBLlUqoDqqwIj6/U6uwMXiqXUBt8g==",
+  "dgSpecHash": "VICjVGvo92wWWx4ZdkVY4yigrTq274qad4klCzZMZy6PMEKmqt0vLip5qv2Z6RpJfdmu2OnKbVXl2eW0SCdLhw==",
   "success": true,
-  "projectFilePath": "C:\\AngularProjects\\Practice Code\\Onyo_v1.0 2\\OnyoModels\\OnyaModels.csproj",
+  "projectFilePath": "/Users/stupasportanalytics/Documents/Karan Workspace/Projects/Backend/Onya/OnyoModels/OnyaModels.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\LENOVO STUPA\\.nuget\\packages\\dapper\\2.0.123\\dapper.2.0.123.nupkg.sha512",
-    "C:\\Users\\LENOVO STUPA\\.nuget\\packages\\system.reflection.emit.lightweight\\4.7.0\\system.reflection.emit.lightweight.4.7.0.nupkg.sha512"
+    "/Users/stupasportanalytics/.nuget/packages/corepush/3.1.1/corepush.3.1.1.nupkg.sha512",
+    "/Users/stupasportanalytics/.nuget/packages/dapper/2.0.123/dapper.2.0.123.nupkg.sha512",
+    "/Users/stupasportanalytics/.nuget/packages/newtonsoft.json/13.0.1/newtonsoft.json.13.0.1.nupkg.sha512",
+    "/Users/stupasportanalytics/.nuget/packages/portable.bouncycastle/1.9.0/portable.bouncycastle.1.9.0.nupkg.sha512",
+    "/Users/stupasportanalytics/.nuget/packages/system.reflection.emit.lightweight/4.7.0/system.reflection.emit.lightweight.4.7.0.nupkg.sha512",
+    "/Users/stupasportanalytics/.nuget/packages/microsoft.aspnetcore.app.ref/3.1.10/microsoft.aspnetcore.app.ref.3.1.10.nupkg.sha512",
+    "/Users/stupasportanalytics/.nuget/packages/microsoft.netcore.app.ref/3.1.0/microsoft.netcore.app.ref.3.1.0.nupkg.sha512"
   ],
   "logs": []
 }

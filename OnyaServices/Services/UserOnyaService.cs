@@ -69,6 +69,19 @@ namespace OnyaServices
             return null;
         }
 
+        public List<String> GetOnyaImages(int onyaid)
+        {
+            try
+            {
+                string query = string.Format(@" select image from dbo.tbl_onya_images where onyaid = @onyaid");
+                return helper.GetList<String>(query, new { query = query, onyaid = onyaid });
+            }
+            catch (Exception ex)
+            {
+            }
+            return null;
+        }
+
         public List<OnyaModel> GetDriverOnyas(int userid)
         {
             try

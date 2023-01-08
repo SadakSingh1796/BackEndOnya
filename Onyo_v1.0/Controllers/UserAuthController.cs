@@ -54,6 +54,7 @@ namespace Onyo_v1._0.Controllers
 
                 if (user != null && user.userId > 0)
                 {
+                    userAuthService.UpdateNotificationToken(model.notificationToken, model.deviceType, user.userId);
                     return new ApiResult() { isSuccess = true, data = user };
                 }
                 else

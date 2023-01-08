@@ -28,6 +28,7 @@ namespace OnyaModels
             public string profilepic { get; set; }
             public bool isuserverified { get; set; }
             public bool isdriververified { get; set; }
+            public string notificationtoken { get; set; }
         }
     }
 }
