@@ -4,6 +4,7 @@ using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using OnyaServices;
+using Stripe;
 
 namespace Onyo_v1._0
 {
@@ -27,7 +28,6 @@ namespace Onyo_v1._0
             services.AddTransient<INotificationService, NotificationService>();
             services.AddControllersWithViews();
             services.AddControllers();
-
             var appSettingsSection = Configuration.GetSection("FcmNotification");
             services.Configure<NotificationSetting>(appSettingsSection);
         }
@@ -59,7 +59,7 @@ namespace Onyo_v1._0
               .AllowCredentials()); // allow credentials
             app.UseAuthentication();
             app.UseAuthorization();
-
+            StripeConfiguration.SetApiKey(Configuration["Stripe:SecretKey"]);
             app.UseEndpoints(endpoints =>
             {
                 endpoints.MapControllerRoute(
