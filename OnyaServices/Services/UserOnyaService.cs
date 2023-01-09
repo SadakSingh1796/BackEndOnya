@@ -219,6 +219,12 @@ namespace OnyaServices
             }
             return null;
         }
+
+        public int UpdateDriverIdAndStatus(int onyaid, int userid, int driveid)
+        {
+            string query = string.Format(@"update dbo.tbl_onyas set userid = @userid, driveid = @driveid where onyaid = @onyaid;");
+            return helper.ExecuteNonQuery(query.ToLower(), new { onyaid = onyaid, userid = userid, driveid = driveid });
+        }
     }
 
 }

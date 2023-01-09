@@ -1,20 +1,14 @@
 ﻿<Properties StartupConfiguration="{6AB30CEC-4C88-48F5-8703-A3103346D98C}|Default">
-  <MonoDevelop.Ide.DebuggingService.Breakpoints>
-    <BreakpointStore />
-  </MonoDevelop.Ide.DebuggingService.Breakpoints>
-  <MonoDevelop.Ide.Workbench ActiveDocument="OnyoModels/Models/NotificationModel.cs">
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Onyo_v1.0/Controllers/VehiclesController.cs">
     <Files>
+      <File FileName="Onyo_v1.0/Controllers/NotificationController.cs" />
       <File FileName="OnyaServices/Services/NotificationService.cs" />
-      <File FileName="OnyoModels/Models/NotificationModel.cs" Line="22" Column="41" />
-      <File FileName="Onyo_v1.0/Controllers/UserAuthController.cs" />
-      <File FileName="OnyoModels/Models/UserAuthModel.cs" />
-      <File FileName="OnyaServices/Services/UserAuthService.cs" Line="85" Column="20" />
-      <File FileName="Onyo_v1.0/Controllers/UserOnyaController.cs" Line="152" Column="24" />
-      <File FileName="OnyoModels/Models/UserOnyaModel.cs" Line="69" Column="1" />
-      <File FileName="OnyaServices/Services/UserOnyaService.cs" Line="172" Column="10" />
-      <File FileName="Onyo_v1.0/Controllers/HomeController.cs" Line="47" Column="79" />
-      <File FileName="OnyoModels/Models/HomeModel.cs" Line="23" Column="22" />
-      <File FileName="Onyo_v1.0/Controllers/NotificationController.cs" Line="20" Column="63" />
+      <File FileName="OnyaServices/Services/UserOnyaService.cs" Line="227" Column="10" />
+      <File FileName="OnyoModels/Models/UserOnyaModel.cs" Line="88" Column="1" />
+      <File FileName="Onyo_v1.0/Controllers/UserAuthController.cs" Line="1" Column="1" />
+      <File FileName="Onyo_v1.0/Controllers/VehiclesController.cs" Line="74" Column="41" />
+      <File FileName="OnyaServices/Services/VehiclesService.cs" Line="23" Column="50" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
@@ -29,15 +23,19 @@
               <Node name="Services" expanded="True" />
             </Node>
             <Node name="Onyo_v1.0" expanded="True">
-              <Node name="Controllers" expanded="True" />
+              <Node name="Controllers" expanded="True">
+                <Node name="VehiclesController.cs" selected="True" />
+              </Node>
             </Node>
           </Node>
         </State>
       </Pad>
     </Pads>
   </MonoDevelop.Ide.Workbench>
-  <MonoDevelop.Ide.ItemProperties.Onyo__v1.0 PreferredExecutionTarget="/Applications/Safari.app" />
-  <MultiItemStartupConfigurations />
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.ItemProperties.Onyo__v1.0 PreferredExecutionTarget="/Applications/Safari.app" />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
 </Properties>

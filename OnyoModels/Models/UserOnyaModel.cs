@@ -79,5 +79,17 @@ namespace OnyaModels
             public int driverid { get; set; }
             public bool isaccepted { get; set; }
         }
+
+        public class ChangeOnyaStatusModel
+        {
+            public int onyaid { get; set; }
+            public int statusid { get; set; }
+        }
+
+        public class ChangeDriverStatusModel
+        {
+            public int onyaid { get; set; }
+            public int driverid { get; set; }
+        }
     }
 }
