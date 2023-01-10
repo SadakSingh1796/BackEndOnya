@@ -168,17 +168,18 @@ namespace OnyaServices
             return 0;
         }
 
-        public int InsertOnyaRequests(int onyaid, int driverid)
+        public int InsertOnyaRequests(int onyaid, int driverid, int userid)
         {
             try
             {
-                string query = string.Format(@" insert into dbo.tbl_onya_request(onyaid, driverid)
-                                                values(@onyaid,@driverid) RETURNING requestid;");
+                string query = string.Format(@" insert into dbo.tbl_onya_request(onyaid, driverid, userid)
+                                                values(@onyaid,@driverid,@userid) RETURNING requestid;");
 
                 return helper.InsertAndGetId(query, new
                 {
                     onyaid = onyaid,
-                    driverid = driverid
+                    driverid = driverid,
+                    userid = userid
                 });
             }
             catch (Exception ex)

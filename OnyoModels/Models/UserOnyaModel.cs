@@ -71,6 +71,7 @@ namespace OnyaModels
         {
             public int onyaid { get; set; }
             public int driverid { get; set; }
+            public int userid { get; set; }
         }
 
         public class OnyaRespondModel

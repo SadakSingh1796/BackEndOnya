@@ -15,6 +15,7 @@ namespace Onyo_v1._0.Controllers
     public class OnyaController : Controller
     {
         private readonly ILogger<OnyaController> _logger;
+
         private UserOnyaService onyaService = new UserOnyaService();
         private UserAuthService userAuthService = new UserAuthService();
 
@@ -135,6 +136,11 @@ namespace Onyo_v1._0.Controllers
         {
             try
             {
+                if (model.userid == null || model.userid == 0)
+                {
+                    return new ApiResult() { isSuccess = false, message = "User Id is required!" };
+                }
+
                 if (model.driverid == null || model.driverid == 0)
                 {
                     return new ApiResult() { isSuccess = false, message = "Driver Id is required!" };
@@ -145,9 +151,7 @@ namespace Onyo_v1._0.Controllers
                     return new ApiResult() { isSuccess = false, message = "Onya Id is required!" };
                 }
 
-                int requestid = onyaService.InsertOnyaRequests(model.onyaid, model.driverid);
-
-
+                int requestid = onyaService.InsertOnyaRequests(model.onyaid, model.driverid, model.userid);
 
                 if (requestid != null && requestid > 0)
                 {
